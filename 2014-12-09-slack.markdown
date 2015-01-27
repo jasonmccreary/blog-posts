@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Got Slack?"
+date: 2014-12-09 20:28
+comments: true
+categories:
+  - Rants
+description: Got Slack? A look at what slack is, how slack is used, and why you need slack?
+excerpt: Got Slack? A look at what slack is, how slack is used, and why you need slack?
+---
+A few years back I read [*Slack*](http://www.amazon.com/Slack-Getting-Burnout-Busywork-Efficiency/dp/0932633617) by Tom DeMarco. Honestly, I didn't finish reading *Slack*; I didn't need to. After the first few chapters I was convinced of its value. Slack was very natural for me. I just never knew what to call it.
+
+The dictionary's definition for *slack*:
+
+> loose, characterized by a lack of activity
+
+Tom DeMarco's definition for *slack*:
+
+> the degree of freedom in a company that allows it to change
+
+When it comes to business, this is a bit counterintuitive. After all, slack is *lack of activity*. Not necessarily what you expect in running an efficient business. Tom DeMarco would agree. He admits slack is the natural enemy of efficiency and efficiency is the natural enemy of slack.
+
+So how then does slack help?
+
+Well I could talk about the [cost of task switching](http://www.fastcompany.com/944128/worker-interrupted-cost-task-switching) or the [myth of 100% utilization](http://www.agileconnection.com/article/management-myth-1-myth-100-utilization). I could talk about how this leads to burnout and decreased quality. However, I'd rather tell a story.
+
+Over the years, I have worked for development companies who are primarily task driven. For the story, let's use Company X. At Company X, developers are assigned tasks to fill their week, often beyond their capacity.
+
+To be fair, Company X didn't reach this method over night. This was the eventual result of minor adjustments to immediate problems. In the end, tasking became the solution. They believed tasking everything out meant it would get done efficiently.
+
+As an outsider, it is easy to see this isn't efficient. Developers rarely reach task list zero which has a psychological affect. A feeling of no light at the end of the tunnel. More on this in [how task driven development kills the craft of software engineering](/2014/12/task-driven-development-kills-craft-software-engineering). For now, suffice it to say things spiral downward from here.
+
+Company X needs *slack*.
+
+Decreasing the day unit is an easy way to build in slack. Although developers still *worked*, say, a 7 hour day, they are only *tasked* for 6 hours. This builds in an hour of slack per day, giving developers the *freedom to change* as Tom DeMarco defined. Time for the unexpected. Time to task switch. Time to plan.
+
+It isn't that easy though. You'll often hear justifications like, *"that's what slack is for."* This is a mistake. Slack is slack. Slack is not meeting time. Slack is not overtime. Slack is not time for pet projects. Such things should be scheduled separately. If slack becomes one thing, it is no longer slack.
+
+Within just a few weeks the entire team at Company X had caught up on their workload and reached task list zero frequently. The mood had also improved and you could see more collaboration.
+
+Although slack is the opposite of efficiency, the two are complementary. You need to balance both. Introducing slack can improve productivity. It's something to introduce not only at work, but in life.
