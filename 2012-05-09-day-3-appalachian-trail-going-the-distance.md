@@ -1,9 +1,9 @@
 ---
-title: 'Day 3: Going the Distance'
+title: "Day 3: Going the Distance"
+heading: "Day 3: Going the Distance"
 author: Jason McCreary
-excerpt: >
-  The journal entry from the third day of my Georgia section hike through the
-  Appalachian Trail.
+excerpt: "The journal entry from the third day of my Georgia section hike through the Appalachian Trail."
+subheading: "The journal entry from the third day of my Georgia section hike through the Appalachian Trail."
 layout: post
 comments: true
 permalink: /2012/05/day-3-appalachian-trail-going-the-distance/

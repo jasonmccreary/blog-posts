@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "PHP Namespaces: Avoid use"
+heading: "PHP Namespaces: Avoid use"
 date: 2013-04-01 22:46
 comments: true
 categories:
   - Main Thread
-excerpt: A look at how <code>use</code> breaks PHP namespaces and why you should avoid using <code>use</code>.
+excerpt: "A look at how <code>use</code> breaks PHP namespaces and why you should avoid using <code>use</code>."
+subheading: "A look at how <code>use</code> breaks PHP namespaces and why you should avoid using <code>use</code>."
 description: A look at how use breaks PHP namespaces and why you should avoid using use.
 ---
 `use` breaks the fundamental aspects of PHP namespaces. Avoid `use`.

@@ -1,9 +1,9 @@
 ---
-title: 'Day 4: Trade Offs'
+title: "Day 4: Trade Offs"
+heading: "Day 4: Trade Offs"
 author: Jason McCreary
-excerpt: >
-  The journal entry from the fourth day of my Georgia section hike through the
-  Appalachian Trail.
+excerpt: "The journal entry from the fourth day of my Georgia section hike through the Appalachian Trail."
+subheading: "The journal entry from the fourth day of my Georgia section hike through the Appalachian Trail."
 layout: post
 comments: true
 permalink: /2012/05/day-4-appalachian-trail-trade-offs/

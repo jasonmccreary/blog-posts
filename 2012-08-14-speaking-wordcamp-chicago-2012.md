@@ -1,7 +1,9 @@
 ---
-title: Speaking at WordCamp Chicago 2012
+title: "Speaking at WordCamp Chicago 2012"
+heading: "Speaking at WordCamp Chicago 2012"
 author: Jason McCreary
-excerpt: 'I&rsquo;m speaking at WordCamp Chicago 2012. I had a great time last year and look forward to presenting my new talk – <em>21 Ways to Make WordPress Fast</em>.'
+excerpt: "I&rsquo;m speaking at WordCamp Chicago 2012. I had a great time last year and look forward to presenting my new talk – <em>21 Ways to Make WordPress Fast</em>."
+subheading: "I&rsquo;m speaking at WordCamp Chicago 2012. I had a great time last year and look forward to presenting my new talk – <em>21 Ways to Make WordPress Fast</em>."
 layout: post
 comments: true
 permalink: /2012/08/speaking-wordcamp-chicago-2012/

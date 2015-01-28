@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Contribute"
+heading: "Contribute"
 date: 2013-05-18 10:36
 comments: true
 categories: 
 - Talks 
-excerpt: A post from my talk as MOSSCon about contributing to Open Source.
-description: A post from my talk as MOSSCon about contributing to Open Source.
+excerpt: "A post from my talk as MOSSCon about contributing to Open Source."
+subheading: "A post from my talk as MOSSCon about contributing to Open Source."
+description: "A post from my talk as MOSSCon about contributing to Open Source."
+subheading: "A post from my talk as MOSSCon about contributing to Open Source."
 ---
 *This post is from my talk at [MOSSCon](http://mosscon.org) - "Contribute".*
 

@@ -1,9 +1,9 @@
 ---
-title: >
-  Unexpected behavior with drop-down option order using minYear, maxYear in
-  CakePHP
+title: "Unexpected behavior with drop-down option order using minYear, maxYear in CakePHP"
+heading: "Unexpected behavior with drop-down option order using minYear, maxYear in CakePHP"
 author: Jason McCreary
-excerpt: 'A rant after encountering unexpected sort order when using <code>minYear</code> and <code>maxYear</code> attributes to control options in an drop down. The solution involved an undocumented, and in my opinion unnecessary, attribute.'
+excerpt: "A rant after encountering unexpected sort order when using <code>minYear</code> and <code>maxYear</code> attributes to control options in an drop down. The solution involved an undocumented, and in my opinion unnecessary, attribute."
+subheading: "A rant after encountering unexpected sort order when using <code>minYear</code> and <code>maxYear</code> attributes to control options in an drop down. The solution involved an undocumented, and in my opinion unnecessary, attribute."
 layout: post
 comments: true
 permalink: /2012/01/cakephp-drop-down-option-order-minyear-maxyear/

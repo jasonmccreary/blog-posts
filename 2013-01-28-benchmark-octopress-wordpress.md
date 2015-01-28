@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Benchmark: Octopress vs. WordPress"
+heading: "Benchmark: Octopress vs. WordPress"
 date: 2013-01-28 14:50
 comments: true
 categories: 
   - Main Thread
-excerpt: A follow-up post reviewing the benchmarks performed during my recent migration from WordPress to Octopress.
-description: A follow-up post reviewing the benchmarks performed during my recent migration from WordPress to Octopress.
+excerpt: "A follow-up post reviewing the benchmarks performed during my recent migration from WordPress to Octopress."
+subheading: "A follow-up post reviewing the benchmarks performed during my recent migration from WordPress to Octopress."
+description: "A follow-up post reviewing the benchmarks performed during my recent migration from WordPress to Octopress."
+subheading: "A follow-up post reviewing the benchmarks performed during my recent migration from WordPress to Octopress."
 ---
 I recently [migrated from WordPress to Octopress](http://jason.pureconcepts.net/2013/01/migrating-wordpress-octopress/ "Migrating from WordPress to Octopress"). During the migration I benchmarked the performance between WordPress and Octopress.
 

@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Common debugging for PHP and MySQL"
+heading: "Common debugging for PHP and MySQL"
 date: 2013-04-28 22:28
 comments: true
 categories: 
 - Main Thread
-excerpt: This post provides a basic checklist for common database debugging when developing with examples in PHP and MySQL.
-description: This post provides a basic checklist for common database debugging when developing with examples in PHP and MySQL.
+excerpt: "This post provides a basic checklist for common database debugging when developing with examples in PHP and MySQL."
+subheading: "This post provides a basic checklist for common database debugging when developing with examples in PHP and MySQL."
+description: "This post provides a basic checklist for common database debugging when developing with examples in PHP and MySQL."
+subheading: "This post provides a basic checklist for common database debugging when developing with examples in PHP and MySQL."
 ---
 I see [many questions](http://stackoverflow.com/search?q=%5Bphp%5D+%5Bmysql%5D+%22database+error%22) on StackOverflow about database issues. This post aims to provide a checklist to help diagnose common issues. While this post contains PHP and MySQL code samples, this debugging checklist applies to other database platforms.
 

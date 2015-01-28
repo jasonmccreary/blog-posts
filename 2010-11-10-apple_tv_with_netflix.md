@@ -1,7 +1,9 @@
 ---
-title: A Week with Apple TV and Netflix
+title: "A Week with Apple TV and Netflix"
+heading: "A Week with Apple TV and Netflix"
 author: Jason McCreary
-excerpt: Some thoughts after a week with the new Apple TV and signing up for Netflix.
+excerpt: "Some thoughts after a week with the new Apple TV and signing up for Netflix."
+subheading: "Some thoughts after a week with the new Apple TV and signing up for Netflix."
 layout: post
 comments: true
 permalink: /2010/11/apple_tv_with_netflix/

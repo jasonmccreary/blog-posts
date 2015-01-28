@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "A Comment from StackOverflow"
+heading: "A Comment from StackOverflow"
 date: 2013-12-11 21:59
 comments: true
 categories:
 - Rants
-excerpt: Thoughts on the responsibilities of a top user on StackOverflow after a comment from another user.
-description: Thoughts on the responsibilities of a top user on StackOverflow after a comment from another user.
+excerpt: "Thoughts on the responsibilities of a top user on StackOverflow after a comment from another user."
+subheading: "Thoughts on the responsibilities of a top user on StackOverflow after a comment from another user."
+description: "Thoughts on the responsibilities of a top user on StackOverflow after a comment from another user."
+subheading: "Thoughts on the responsibilities of a top user on StackOverflow after a comment from another user."
 ---
 The other day I answered [a question on StackOverflow](http://stackoverflow.com/questions/20501762/merge-two-separate-ifs-into-one). It asked about combining two `if` statements. I provided a quick, simple answer. A few hours later I received the following comment from tereško.
 

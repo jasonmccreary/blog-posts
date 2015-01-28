@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Finally, I speak PHP"
+heading: "Finally, I speak PHP"
 date: 2014-07-10 15:32
 comments: true
 categories: 
 - Talks
-excerpt: After 3 years of rejection, I am finally speaking at a PHP conference.
-description: After 3 years of rejection, I am finally speaking at a PHP conference.
+excerpt: "After 3 years of rejection, I am finally speaking at a PHP conference."
+subheading: "After 3 years of rejection, I am finally speaking at a PHP conference."
+description: "After 3 years of rejection, I am finally speaking at a PHP conference."
+subheading: "After 3 years of rejection, I am finally speaking at a PHP conference."
 ---
 For the last 3 years I answered the *call for papers* of various PHP conferences. All around the country. Submitting all sorts of talks. All rejected.
 

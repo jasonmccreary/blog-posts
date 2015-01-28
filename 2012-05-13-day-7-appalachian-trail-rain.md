@@ -1,9 +1,9 @@
 ---
-title: 'Day 7: Rain'
+title: "Day 7: Rain"
+heading: "Day 7: Rain"
 author: Jason McCreary
-excerpt: >
-  The journal entry from the seventh day of my Georgia section hike through the
-  Appalachian Trail.
+excerpt: "The journal entry from the seventh day of my Georgia section hike through the Appalachian Trail."
+subheading: "The journal entry from the seventh day of my Georgia section hike through the Appalachian Trail."
 layout: post
 comments: true
 permalink: /2012/05/day-7-appalachian-trail-rain/

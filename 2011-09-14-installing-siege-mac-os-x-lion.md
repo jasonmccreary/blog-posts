@@ -1,7 +1,9 @@
 ---
-title: Install siege on Mac OS X
+title: "Install siege on Mac OS X"
+heading: "Install siege on Mac OS X"
 author: Jason McCreary
 excerpt: "I've taken an interested in performance lately and heard about siege. The blog articled I found to install siege failed on the first step. So I decided to write my own in hopes it would help any non sysadmin developer that wanted to install siege on Mac OS X Lion. Although this should work with Leopard and Snow Leopard."
+subheading: "I've taken an interested in performance lately and heard about siege. The blog articled I found to install siege failed on the first step. So I decided to write my own in hopes it would help any non sysadmin developer that wanted to install siege on Mac OS X Lion. Although this should work with Leopard and Snow Leopard."
 layout: post
 comments: true
 permalink: /2011/09/installing-siege-mac-os-x-lion/

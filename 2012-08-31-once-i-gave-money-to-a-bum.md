@@ -1,7 +1,9 @@
 ---
-title: Once I Gave Money to a Bum
+title: "Once I Gave Money to a Bum"
+heading: "Once I Gave Money to a Bum"
 author: Jason McCreary
 excerpt: "A story from my childhood explaining why I don't give money to bums."
+subheading: "A story from my childhood explaining why I don't give money to bums."
 layout: post
 comments: true
 permalink: /2012/08/once-i-gave-money-to-a-bum/

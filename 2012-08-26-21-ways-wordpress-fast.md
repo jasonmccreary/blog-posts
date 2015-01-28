@@ -1,7 +1,9 @@
 ---
-title: 21 Ways to Make WordPress Fast
+title: "21 Ways to Make WordPress Fast"
+heading: "21 Ways to Make WordPress Fast"
 author: Jason McCreary
 excerpt: "WordPress is slow. We know. It's on you to make WordPress fast. This post offers 21 ways to make your site and WordPress faster."
+subheading: "WordPress is slow. We know. It's on you to make WordPress fast. This post offers 21 ways to make your site and WordPress faster."
 layout: post
 comments: true
 permalink: /2012/08/21-ways-wordpress-fast/

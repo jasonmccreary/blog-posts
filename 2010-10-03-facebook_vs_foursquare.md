@@ -1,9 +1,9 @@
 ---
-title: Facebook Places vs Foursquare
+title: "Facebook Places vs Foursquare"
+heading: "Facebook Places vs Foursquare"
 author: Jason McCreary
-excerpt: >
-  A rant on the recent competition between Facebook Places and Foursquare as it
-  relates to intellectual property and the technical industry.
+excerpt: "A rant on the recent competition between Facebook Places and Foursquare as it relates to intellectual property and the technical industry."
+subheading: "A rant on the recent competition between Facebook Places and Foursquare as it relates to intellectual property and the technical industry."
 layout: post
 comments: true
 permalink: /2010/10/facebook_vs_foursquare/

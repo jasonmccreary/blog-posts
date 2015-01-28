@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Buying a hatchet in Manhattan"
+heading: "Buying a hatchet in Manhattan"
 date: 2013-05-07 07:05
 comments: true
 categories: 
 - Life Stories
-excerpt: The time I bought a hatchet at the Home Depot in midtown Manhattan.
-description: The time I bought a hatchet at the Home Depot in midtown Manhattan.
+excerpt: "The time I bought a hatchet at the Home Depot in midtown Manhattan."
+subheading: "The time I bought a hatchet at the Home Depot in midtown Manhattan."
+description: "The time I bought a hatchet at the Home Depot in midtown Manhattan."
+subheading: "The time I bought a hatchet at the Home Depot in midtown Manhattan."
 ---
 I enjoy the outdoors. Last year I hiked 156 miles of the [Appalachian Trail](http://jason.pureconcepts.net/2012/04/bootstrapping-the-appalachian-trail/ "Bootstrapping the Appalachian Trail"). As soon as I finished I knew I would hike more.
 

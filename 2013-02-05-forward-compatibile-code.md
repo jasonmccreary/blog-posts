@@ -1,12 +1,15 @@
 ---
 layout: post
-title: Forward-Compatible Code
+title: "Forward-Compatible Code"
+heading: "Forward-Compatible Code"
 date: 2013-02-05 22:01
 comments: true
 categories:
   - Main Thread
-excerpt: While updating some legacy code to be backward-compatible I found that forward-compatibility was equally important.
-description: While updating some legacy code to be backward-compatible I found that forward-compatibility was equally important.
+excerpt: "While updating some legacy code to be backward-compatible I found that forward-compatibility was equally important."
+subheading: "While updating some legacy code to be backward-compatible I found that forward-compatibility was equally important."
+description: "While updating some legacy code to be backward-compatible I found that forward-compatibility was equally important."
+subheading: "While updating some legacy code to be backward-compatible I found that forward-compatibility was equally important."
 ---
 Most developers know about backward-compatibility &mdash; ensuring code runs under past versions. But what about forward-compatibility? Developing code compatible with future versions can be equally important.
 

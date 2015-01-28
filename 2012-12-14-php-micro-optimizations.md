@@ -1,9 +1,9 @@
 ---
-title: 'A Response to &#8220;Micro-Optimizations in PHP&#8221;'
+title: "A Response to &#8220;Micro-Optimizations in PHP&#8221;"
+heading: "A Response to &#8220;Micro-Optimizations in PHP&#8221;"
 author: Jason McCreary
-excerpt: >
-  A response to a post on PHP Micro-Optimizations floating around the PHP
-  community recently.
+excerpt: "A response to a post on PHP Micro-Optimizations floating around the PHP community recently."
+subheading: "A response to a post on PHP Micro-Optimizations floating around the PHP community recently."
 layout: post
 comments: true
 permalink: /2012/12/php-micro-optimizations/

@@ -1,9 +1,9 @@
 ---
-title: Migrating WordPress to Amazon EC2
+title: "Migrating WordPress to Amazon EC2"
+heading: "Migrating WordPress to Amazon EC2"
 author: Jason McCreary
-excerpt: >
-  After my shared hosting plan expired, I migrated to Amazon EC2. My WordPress
-  site now runs on a micro instance. Free for the next year.
+excerpt: "After my shared hosting plan expired, I migrated to Amazon EC2. My WordPress site now runs on a micro instance. Free for the next year."
+subheading: "After my shared hosting plan expired, I migrated to Amazon EC2. My WordPress site now runs on a micro instance. Free for the next year."
 layout: post
 comments: true
 permalink: /2012/07/migrating-wordpress-to-amazon-ec2/

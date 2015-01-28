@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Launching my first Kickstarter project"
+heading: "Launching my first Kickstarter project"
 date: 2013-12-06 10:49
 comments: true
 categories: 
 - Main Thread
-excerpt: The story behind launching my first project on Kickstarter.
-description: The story behind launching my first project on Kickstarter.
+excerpt: "The story behind launching my first project on Kickstarter."
+subheading: "The story behind launching my first project on Kickstarter."
+description: "The story behind launching my first project on Kickstarter."
+subheading: "The story behind launching my first project on Kickstarter."
 ---
 Earlier this week I launched my [first Kickstarter project](http://www.kickstarter.com/projects/jason-mccreary/wadl-word-a-day-learning/ "wadl - word a day learning"). For those not familiar, [Kickstarter](http://www.kickstarter.com/) is a way to raise money for a project. It does so through crowdsourcing. So what's *crowdsourcing*?
 

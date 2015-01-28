@@ -1,7 +1,9 @@
 ---
-title: WordPress Multitenancy
+title: "WordPress Multitenancy"
+heading: "WordPress Multitenancy"
 author: Jason McCreary
-excerpt: 'WordPress Multitenancy - a simple solution to a complex problem. This post covers creating a multitenant architecture for WordPress. Aimed at improving scalability and maintainability.'
+excerpt: "WordPress Multitenancy - a simple solution to a complex problem. This post covers creating a multitenant architecture for WordPress. Aimed at improving scalability and maintainability."
+subheading: "WordPress Multitenancy - a simple solution to a complex problem. This post covers creating a multitenant architecture for WordPress. Aimed at improving scalability and maintainability."
 layout: post
 comments: true
 permalink: /2012/08/wordpress-multitenancy/

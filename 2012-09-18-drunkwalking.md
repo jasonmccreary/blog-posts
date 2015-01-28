@@ -1,7 +1,9 @@
 ---
-title: Drunkwalking
+title: "Drunkwalking"
+heading: "Drunkwalking"
 author: Jason McCreary
-excerpt: An unsolved, bedtime mystery from college.
+excerpt: "An unsolved, bedtime mystery from college."
+subheading: "An unsolved, bedtime mystery from college."
 layout: post
 comments: true
 permalink: /2012/09/drunkwalking/
@@ -9,7 +11,8 @@ categories:
   - Life Stories
 tags:
   - college
-description: An unsolved, bedtime mystery from college.
+description: "An unsolved, bedtime mystery from college."
+subheading: "An unsolved, bedtime mystery from college."
 ---
 I remember my first weekend at Purdue. It was the last weekend before classes started. Everyone was moving in and the campus was filling up with kids ready to experience college. I joined several of my dorm hall neighbors and went out to party.
 

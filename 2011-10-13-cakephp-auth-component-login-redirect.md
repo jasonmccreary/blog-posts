@@ -1,7 +1,9 @@
 ---
-title: CakePHP Auth Component loginRedirect Behavior
+title: "CakePHP Auth Component loginRedirect Behavior"
+heading: "CakePHP Auth Component loginRedirect Behavior"
 author: Jason McCreary
-excerpt: "I came across some interesting behavior with CakePHP's Auth Component. The solution didn't align with the documentation or my understanding of the Auth Component's login redirect. This post covers the problem and my solution. "
+excerpt: "I came across some interesting behavior with CakePHP's Auth Component. The solution didn't align with the documentation or my understanding of the Auth Component's login redirect. This post covers the problem and my solution."
+subheading: "I came across some interesting behavior with CakePHP's Auth Component. The solution didn't align with the documentation or my understanding of the Auth Component's login redirect. This post covers the problem and my solution."
 layout: post
 comments: true
 permalink: /2011/10/cakephp-auth-component-login-redirect/

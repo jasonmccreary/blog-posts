@@ -1,9 +1,9 @@
 ---
-title: Ice Cream Tragedy
+title: "Ice Cream Tragedy"
+heading: "Ice Cream Tragedy"
 author: Jason McCreary
-excerpt: >
-  While waiting at the airport as a child my sweet tooth led to an ice cream
-  tragedy.
+excerpt: "While waiting at the airport as a child my sweet tooth led to an ice cream tragedy."
+subheading: "While waiting at the airport as a child my sweet tooth led to an ice cream tragedy."
 layout: post
 comments: true
 permalink: /2012/09/ice-cream-tragedy/

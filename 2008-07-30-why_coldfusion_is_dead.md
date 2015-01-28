@@ -1,10 +1,9 @@
 ---
-title: Why ColdFusion is Dead
+title: "Why ColdFusion is Dead"
+heading: "Why ColdFusion is Dead"
 author: Jason McCreary
-excerpt: >
-  An explanation on why I never adopted ColdFusion. Including a deeper look at
-  several features, or lack thereof, that drive me nuts and some suggestions on
-  how things could turn around.
+excerpt: "An explanation on why I never adopted ColdFusion. Including a deeper look at several features, or lack thereof, that drive me nuts and some suggestions on how things could turn around."
+subheading: "An explanation on why I never adopted ColdFusion. Including a deeper look at several features, or lack thereof, that drive me nuts and some suggestions on how things could turn around."
 layout: post
 comments: true
 permalink: /2008/07/why_coldfusion_is_dead/

@@ -1,7 +1,9 @@
 ---
-title: 'In Code: Fashion vs. Style'
+title: "In Code: Fashion vs. Style"
+heading: "In Code: Fashion vs. Style"
 author: Jason McCreary
-excerpt: 'While talking about technologies and trends, I heard an interesting analogy - the difference between fashion & style as it relates to code.'
+excerpt: "While talking about technologies and trends, I heard an interesting analogy - the difference between fashion & style as it relates to code."
+subheading: "While talking about technologies and trends, I heard an interesting analogy - the difference between fashion & style as it relates to code."
 layout: post
 comments: true
 permalink: /2012/09/code-style-fashion/

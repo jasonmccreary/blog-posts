@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "gh - Open GitHub from the Command Line"
+heading: "gh - Open GitHub from the Command Line"
 date: 2013-10-23 21:53
 comments: true
 categories: 
 - Main Thread
-excerpt: A shell script to open GitHub from the command line.
-description: A shell script to open GitHub from the command line.
+excerpt: "A shell script to open GitHub from the command line."
+subheading: "A shell script to open GitHub from the command line."
+description: "A shell script to open GitHub from the command line."
+subheading: "A shell script to open GitHub from the command line."
 ---
 At work we used git backed by [GitHub](https://github.com). After every `git push` I open the browser, go to GitHub, and navigate to the branch.
 

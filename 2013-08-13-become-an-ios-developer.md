@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Journey to become an iOS Developer"
+heading: "Journey to become an iOS Developer"
 date: 2013-08-08 11:04
 comments: true
 categories: 
 - Main Thread
-excerpt: A rant on my journey to become a real iOS developer.
-description: A rant on my journey to become a real iOS developer.
+excerpt: "A rant on my journey to become a real iOS developer."
+subheading: "A rant on my journey to become a real iOS developer."
+description: "A rant on my journey to become a real iOS developer."
+subheading: "A rant on my journey to become a real iOS developer."
 ---
 When Apple released the iPhone SDK in 2008 I knew I wanted to build apps. Something about developing apps aligned more with my Computer Science degree. Far more than the web development I had done since 16 years old.
 

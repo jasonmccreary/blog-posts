@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "How Task Driven Development Kills the Craft of Software Engineering"
+heading: "How Task Driven Development Kills the Craft of Software Engineering"
 date: 2014-12-18 13:58
 comments: true
 categories:
   - Rants
-description: A look at how the process of task driven development kills the craft of software engineering.
-excerpt: A look at how the process of task driven development kills the craft of software engineering.
+description: "A look at how the process of task driven development kills the craft of software engineering."
+subheading: "A look at how the process of task driven development kills the craft of software engineering."
+excerpt: "A look at how the process of task driven development kills the craft of software engineering."
+subheading: "A look at how the process of task driven development kills the craft of software engineering."
 ---
 In a recent post on how [slack](/2014/12/slack/) can improve productivity I alluded to the *psychological effect* of task driven development. I want to explore this point further.
 

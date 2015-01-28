@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Recruiter Methods"
+heading: "Recruiter Methods"
 date: 2013-10-01 20:22
 comments: true
 categories: 
 - Main Thread
-excerpt: A closer look at the methods employed by recruiters.
-description: A closer look at the methods employed by recruiters.
+excerpt: "A closer look at the methods employed by recruiters."
+subheading: "A closer look at the methods employed by recruiters."
+description: "A closer look at the methods employed by recruiters."
+subheading: "A closer look at the methods employed by recruiters."
 ---
 As a software engineer you reach a level where recruiters contact you daily. As flattering as it is, most recruiters aren't much different than bums.
 

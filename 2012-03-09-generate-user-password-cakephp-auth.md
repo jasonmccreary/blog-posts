@@ -1,7 +1,9 @@
 ---
-title: Generate user password for CakePHP Auth
+title: "Generate user password for CakePHP Auth"
+heading: "Generate user password for CakePHP Auth"
 author: Jason McCreary
-excerpt: A script that hashes password for existing user records when using CakePHP Auth.
+excerpt: "A script that hashes password for existing user records when using CakePHP Auth."
+subheading: "A script that hashes password for existing user records when using CakePHP Auth."
 layout: post
 comments: true
 permalink: /2012/03/generate-user-password-cakephp-auth/
@@ -10,7 +12,8 @@ categories:
 tags:
   - cakephp
   - script
-description: A script that hashes password for existing user records when using CakePHP Auth.
+description: "A script that hashes password for existing user records when using CakePHP Auth."
+subheading: "A script that hashes password for existing user records when using CakePHP Auth."
 ---
 The other day I imported some existing user accounts into my CakePHP project. The project was using [CakePHP&rsquo;s Auth Component][1]. By default, CakePHP Auth uses its own hashing to encrypt the password. So I needed to hash the password for the existing user accounts.
 

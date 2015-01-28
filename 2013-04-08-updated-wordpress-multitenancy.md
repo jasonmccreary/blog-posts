@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "Updated: WordPress Multitenacy"
+heading: "Updated: WordPress Multitenacy"
 date: 2013-04-08 12:33
 comments: true
 categories: 
   - Main Thread
-excerpt: An update to my solution for a multitenant WordPress install. With improvements in maintainability and extensibility. 
+excerpt: "An update to my solution for a multitenant WordPress install. With improvements in maintainability and extensibility."
+subheading: "An update to my solution for a multitenant WordPress install. With improvements in maintainability and extensibility."
 description: An update to my solution for a multitenant WordPress install. With improvements in maintainability and extensibility.
 ---
 Although I [migrated this blog to Octopress](http://jason.pureconcepts.net/2013/01/migrating-wordpress-octopress/ "Migrate WordPress to Octopress"), I still develop with WordPress. A few months ago I shared a solution for [WordPress multitenancy](http://jason.pureconcepts.net/2012/08/wordpress-multitenancy/ "WordPress Multitenancy"). This post received great feedback. I incorporated several suggestions into an updated WordPress multitenant install.

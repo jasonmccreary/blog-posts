@@ -1,9 +1,9 @@
 ---
-title: 'Be a Better PHP Developer: Coding Standards'
+title: "Be a Better PHP Developer: Coding Standards"
+heading: "Be a Better PHP Developer: Coding Standards"
 author: Jason McCreary
-excerpt: >
-  The next installment of a series on how to be a better PHP developer, and better
-  developer in general. This post covers PHP coding standards.
+excerpt: "The next installment of a series on how to be a better PHP developer, and better developer in general. This post covers PHP coding standards."
+subheading: "The next installment of a series on how to be a better PHP developer, and better developer in general. This post covers PHP coding standards."
 layout: post
 comments: true
 permalink: /2012/11/php-coding-standards/

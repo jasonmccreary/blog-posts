@@ -1,7 +1,9 @@
 ---
-title: 'Installing a trampoline on 18&#8242; Hobie Cat'
+title: "Installing a trampoline on 18&#8242; Hobie Cat"
+heading: "Installing a trampoline on 18&#8242; Hobie Cat"
 author: Jason McCreary
 excerpt: "As I didn't find a good DIY guide after a few Google searches, I wrote this post after installing a new trampoline on my 18' Hobie Cat."
+subheading: "As I didn't find a good DIY guide after a few Google searches, I wrote this post after installing a new trampoline on my 18' Hobie Cat."
 layout: post
 comments: true
 permalink: /2009/08/hobie_trampoline_install/

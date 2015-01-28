@@ -1,9 +1,9 @@
 ---
-title: JavaScript Tab Solution using Prototype
+title: "JavaScript Tab Solution using Prototype"
+heading: "JavaScript Tab Solution using Prototype"
 author: Jason McCreary
-excerpt: >
-  A JavaScript tab solution with a nice Scriptaculous Effect that uses semantic
-  markup, CSS, and degrades gracefully.
+excerpt: "A JavaScript tab solution with a nice Scriptaculous Effect that uses semantic markup, CSS, and degrades gracefully."
+subheading: "A JavaScript tab solution with a nice Scriptaculous Effect that uses semantic markup, CSS, and degrades gracefully."
 layout: post
 comments: true
 permalink: /2008/12/javascript_tabs_using_prototype/

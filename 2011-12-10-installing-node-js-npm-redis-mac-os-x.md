@@ -1,9 +1,9 @@
 ---
-title: Installing node.js, npm, and redis on Mac OS X
+title: "Installing node.js, npm, and redis on Mac OS X"
+heading: "Installing node.js, npm, and redis on Mac OS X"
 author: Jason McCreary
-excerpt: >
-  After scouring the web for days, this post aims to provide concise, central
-  instructions for installing node.js, npm, and redis on Mac OS X.
+excerpt: "After scouring the web for days, this post aims to provide concise, central instructions for installing node.js, npm, and redis on Mac OS X."
+subheading: "After scouring the web for days, this post aims to provide concise, central instructions for installing node.js, npm, and redis on Mac OS X."
 layout: post
 comments: true
 permalink: /2011/12/installing-node-js-npm-redis-mac-os-x/

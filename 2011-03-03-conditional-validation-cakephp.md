@@ -1,9 +1,9 @@
 ---
-title: Conditional Validation in CakePHP
+title: "Conditional Validation in CakePHP"
+heading: "Conditional Validation in CakePHP"
 author: Jason McCreary
-excerpt: >
-  I needed to perform conditional data validation in CakePHP for a project
-  recently. This is a review of the internal options to do so and my own approach.
+excerpt: "I needed to perform conditional data validation in CakePHP for a project recently. This is a review of the internal options to do so and my own approach."
+subheading: "I needed to perform conditional data validation in CakePHP for a project recently. This is a review of the internal options to do so and my own approach."
 layout: post
 comments: true
 permalink: /2011/03/conditional-validation-cakephp/

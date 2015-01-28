@@ -1,9 +1,9 @@
 ---
-title: 'Day 5: Beast Mode'
+title: "Day 5: Beast Mode"
+heading: "Day 5: Beast Mode"
 author: Jason McCreary
-excerpt: >
-  The journal entry from the fifth day of my Georgia section hike through the
-  Appalachian Trail.
+excerpt: "The journal entry from the fifth day of my Georgia section hike through the Appalachian Trail."
+subheading: "The journal entry from the fifth day of my Georgia section hike through the Appalachian Trail."
 layout: post
 comments: true
 permalink: /2012/05/day-5-appalachian-trail-beast-mode/

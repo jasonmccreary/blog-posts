@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Beerio Kart"
+heading: "Beerio Kart"
 date: 2013-12-24 14:05
 comments: true
 categories: 
 - Life Stories
-excerpt: The rules for turning Mario Kart for the Nintendo 64 into a drinking game.
-description: The rules for turning Mario Kart for the Nintendo 64 into a drinking game.
+excerpt: "The rules for turning Mario Kart for the Nintendo 64 into a drinking game."
+subheading: "The rules for turning Mario Kart for the Nintendo 64 into a drinking game."
+description: "The rules for turning Mario Kart for the Nintendo 64 into a drinking game."
+subheading: "The rules for turning Mario Kart for the Nintendo 64 into a drinking game."
 ---
 Mario Kart for Nintendo 64 is one of the classic racing games. Growing up I played against my brothers everyday after school. The last startup I worked for had Mario Kart, albeit for the Wii. After a few days of knocking off the rust I dominated. At least until a young whipper*snapper* joined the team.
 

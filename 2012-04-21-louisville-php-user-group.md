@@ -1,7 +1,9 @@
 ---
-title: Louisville PHP User Group
+title: "Louisville PHP User Group"
+heading: "Louisville PHP User Group"
 author: Jason McCreary
 excerpt: "For years I searched for a PHP User Group in Louisville. No more. I'm starting the Louisville PHP User Group and leading our first meeting."
+subheading: "For years I searched for a PHP User Group in Louisville. No more. I'm starting the Louisville PHP User Group and leading our first meeting."
 layout: post
 comments: true
 permalink: /2012/04/louisville-php-user-group/

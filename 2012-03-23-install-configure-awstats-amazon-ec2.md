@@ -1,9 +1,9 @@
 ---
-title: Installing and Configuring AWStats on Amazon EC2
+title: "Installing and Configuring AWStats on Amazon EC2"
+heading: "Installing and Configuring AWStats on Amazon EC2"
 author: Jason McCreary
-excerpt: >
-  Step by step instructions for installing and configuring AWStats on Amazon EC2,
-  as well as a script that automatically configures and updates sites for AWStats.
+excerpt: "Step by step instructions for installing and configuring AWStats on Amazon EC2, as well as a script that automatically configures and updates sites for AWStats."
+subheading: "Step by step instructions for installing and configuring AWStats on Amazon EC2, as well as a script that automatically configures and updates sites for AWStats."
 layout: post
 comments: true
 permalink: /2012/03/install-configure-awstats-amazon-ec2/

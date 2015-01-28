@@ -1,10 +1,9 @@
 ---
-title: CakePHP not inheriting custom app_controller and app_model
+title: "CakePHP not inheriting custom app_controller and app_model"
+heading: "CakePHP not inheriting custom app_controller and app_model"
 author: Jason McCreary
-excerpt: >
-  My CakePHP project fell down a rabbit hole earlier after creating a custom
-  app_controller and app_model from something that should have been a no-brainer.
-  Hopefully this helps someone else.
+excerpt: "My CakePHP project fell down a rabbit hole earlier after creating a custom app_controller and app_model from something that should have been a no-brainer. Hopefully this helps someone else."
+subheading: "My CakePHP project fell down a rabbit hole earlier after creating a custom app_controller and app_model from something that should have been a no-brainer. Hopefully this helps someone else."
 layout: post
 comments: true
 permalink: /2011/03/cakephp-custom-app-controller/

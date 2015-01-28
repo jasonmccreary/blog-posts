@@ -1,7 +1,9 @@
 ---
-title: PocketBracket 2.0 Update with an iPad Giveaway
+title: "PocketBracket 2.0 Update with an iPad Giveaway"
+heading: "PocketBracket 2.0 Update with an iPad Giveaway"
 author: Jason McCreary
 excerpt: "For this year's 2010 NCAA Men's Basketball Tournament I updated PocketBracket with a new UI and several user requested features. To build the buzz in the ever competitive app market, I'm running an iPad Giveaway."
+subheading: "For this year's 2010 NCAA Men's Basketball Tournament I updated PocketBracket with a new UI and several user requested features. To build the buzz in the ever competitive app market, I'm running an iPad Giveaway."
 layout: post
 comments: true
 permalink: /2010/03/pocketbracket_ipad_giveaway/

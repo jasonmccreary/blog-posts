@@ -1,10 +1,9 @@
 ---
-title: 'I&#8217;m Speaking at WordCamp Louisville'
+title: "I&#8217;m Speaking at WordCamp Louisville"
+heading: "I&#8217;m Speaking at WordCamp Louisville"
 author: Jason McCreary
-excerpt: >
-  I&rsquo;ll be speaking at the 2011 WordCamp Louisville this Saturday, October 1st.
-  This will be my third time speaking at WordCamp and second time for this talk
-  – Configuring WordPress for Multiple Environments.
+excerpt: "I&rsquo;ll be speaking at the 2011 WordCamp Louisville this Saturday, October 1st. This will be my third time speaking at WordCamp and second time for this talk – Configuring WordPress for Multiple Environments."
+subheading: "I&rsquo;ll be speaking at the 2011 WordCamp Louisville this Saturday, October 1st. This will be my third time speaking at WordCamp and second time for this talk – Configuring WordPress for Multiple Environments."
 layout: post
 comments: true
 permalink: /2011/09/speaking-wordcamp-louisville/

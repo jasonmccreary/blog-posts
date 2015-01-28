@@ -1,7 +1,9 @@
 ---
-title: 'Another year of PocketBracket: A March Madness App'
+title: "Another year of PocketBracket: A March Madness App"
+heading: "Another year of PocketBracket: A March Madness App"
 author: Jason McCreary
-excerpt: 'A look back on 4 years of developing, managing, and marketing PocketBracket - a March Madness app for iOS, Android, and Windows Phone devices.'
+excerpt: "A look back on 4 years of developing, managing, and marketing PocketBracket - a March Madness app for iOS, Android, and Windows Phone devices."
+subheading: "A look back on 4 years of developing, managing, and marketing PocketBracket - a March Madness app for iOS, Android, and Windows Phone devices."
 layout: post
 comments: true
 permalink: /2012/04/pocketbracket-march-madness-app/

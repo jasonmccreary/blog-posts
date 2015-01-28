@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Migrating from WordPress to Octopress"
+heading: "Migrating from WordPress to Octopress"
 author: Jason McCreary
 date: 2013-01-14 15:21
 comments: true
@@ -11,8 +12,10 @@ tags:
   - octopress
   - ec2
   - jekyll
-excerpt: A post on my recent migration from WordPress to Octopress as a return to simple blogging and a site with greasy, fast speed.
-description: A post on my recent migration from WordPress to Octopress as a return to simple blogging and a site with greasy, fast speed.
+excerpt: "A post on my recent migration from WordPress to Octopress as a return to simple blogging and a site with greasy, fast speed."
+subheading: "A post on my recent migration from WordPress to Octopress as a return to simple blogging and a site with greasy, fast speed."
+description: "A post on my recent migration from WordPress to Octopress as a return to simple blogging and a site with greasy, fast speed."
+subheading: "A post on my recent migration from WordPress to Octopress as a return to simple blogging and a site with greasy, fast speed."
 ---
 This past weekend I migrated my blog from WordPress to Octopress. Before I explain the migration, let me explain why I migrated away from WordPress.
 

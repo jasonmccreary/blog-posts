@@ -1,7 +1,9 @@
 ---
-title: Electrosis
+title: "Electrosis"
+heading: "Electrosis"
 author: Jason McCreary
-excerpt: The process by which energy transfers between electrical devices and us.
+excerpt: "The process by which energy transfers between electrical devices and us."
+subheading: "The process by which energy transfers between electrical devices and us."
 layout: post
 comments: true
 permalink: /2010/05/electrosis/

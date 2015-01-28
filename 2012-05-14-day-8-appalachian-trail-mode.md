@@ -1,9 +1,9 @@
 ---
-title: 'Day 8: Trail Mode'
+title: "Day 8: Trail Mode"
+heading: "Day 8: Trail Mode"
 author: Jason McCreary
-excerpt: >
-  The journal entry from the eighth day of my Georgia section hike through the
-  Appalachian Trail.
+excerpt: "The journal entry from the eighth day of my Georgia section hike through the Appalachian Trail."
+subheading: "The journal entry from the eighth day of my Georgia section hike through the Appalachian Trail."
 layout: post
 comments: true
 permalink: /2012/05/day-8-appalachian-trail-mode/

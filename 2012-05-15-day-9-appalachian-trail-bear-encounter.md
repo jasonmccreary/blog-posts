@@ -1,9 +1,9 @@
 ---
-title: 'Day 9: Bear Encounter'
+title: "Day 9: Bear Encounter"
+heading: "Day 9: Bear Encounter"
 author: Jason McCreary
-excerpt: >
-  The journal entry from the ninth day of my Georgia section hike through the
-  Appalachian Trail.
+excerpt: "The journal entry from the ninth day of my Georgia section hike through the Appalachian Trail."
+subheading: "The journal entry from the ninth day of my Georgia section hike through the Appalachian Trail."
 layout: post
 comments: true
 permalink: /2012/05/day-9-appalachian-trail-bear-encounter/

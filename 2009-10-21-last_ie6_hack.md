@@ -1,9 +1,9 @@
 ---
-title: My Last IE6 Hack
+title: "My Last IE6 Hack"
+heading: "My Last IE6 Hack"
 author: Jason McCreary
-excerpt: >
-  Today I wrote my last IE6 hack, to overcome a common CSS bug, and I say good
-  riddance to this nearly decade old browser.
+excerpt: "Today I wrote my last IE6 hack, to overcome a common CSS bug, and I say good riddance to this nearly decade old browser."
+subheading: "Today I wrote my last IE6 hack, to overcome a common CSS bug, and I say good riddance to this nearly decade old browser."
 layout: post
 comments: true
 permalink: /2009/10/last_ie6_hack/

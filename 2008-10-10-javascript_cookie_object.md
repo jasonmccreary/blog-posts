@@ -1,10 +1,9 @@
 ---
-title: JavaScript Cookie Object using Prototype
+title: "JavaScript Cookie Object using Prototype"
+heading: "JavaScript Cookie Object using Prototype"
 author: Jason McCreary
-excerpt: >
-  A Cookie class in JavaScript, using Prototype, allowing multiple data objects to
-  be stored in a single Cookie. Class contains methods for data management and
-  storage.
+excerpt: "A Cookie class in JavaScript, using Prototype, allowing multiple data objects to be stored in a single Cookie. Class contains methods for data management and storage."
+subheading: "A Cookie class in JavaScript, using Prototype, allowing multiple data objects to be stored in a single Cookie. Class contains methods for data management and storage."
 layout: post
 comments: true
 permalink: /2008/10/javascript_cookie_object/

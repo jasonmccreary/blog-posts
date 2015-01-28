@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "A rockstar developer can't save you"
+heading: "A rockstar developer can't save you"
 date: 2014-03-18 21:53
 comments: true
 categories: 
 - Main Thread
-excerpt: A rockstar developer can't save you. Why? Because the developer gap.
-description: A rockstar developer can't save you. Why? Because the developer gap.
+excerpt: "A rockstar developer can't save you. Why? Because the developer gap."
+subheading: "A rockstar developer can't save you. Why? Because the developer gap."
+description: "A rockstar developer can't save you. Why? Because the developer gap."
+subheading: "A rockstar developer can't save you. Why? Because the developer gap."
 ---
 Everyone wants to hire a *rockstar developer*. A developer who will squash the bugs in your code, finish late projects instantly, and whip your dev team into shape. The silver bullet.
 

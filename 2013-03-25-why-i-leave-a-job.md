@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Why I leave a job"
+heading: "Why I leave a job"
 date: 2013-03-25 21:51
 comments: true
 categories:
   - Main Thread
-excerpt: A reflection on the core criteria of a good job after deciding to leave The New York Times after only a brief time.
-description: A reflection on the core criteria of a good job after deciding to leave The New York Times after only a brief time.
+excerpt: "A reflection on the core criteria of a good job after deciding to leave The New York Times after only a brief time."
+subheading: "A reflection on the core criteria of a good job after deciding to leave The New York Times after only a brief time."
+description: "A reflection on the core criteria of a good job after deciding to leave The New York Times after only a brief time."
+subheading: "A reflection on the core criteria of a good job after deciding to leave The New York Times after only a brief time."
 ---
 After a short time I decided to leave my job as a Software Engineer at [The New York Times](http://nytimes.com). *The New York Times!* A dream job with a prestigious company. When people ask, "Where do you work?", they don't *really* care. But when I said, "The New York Times", they started listening.
 

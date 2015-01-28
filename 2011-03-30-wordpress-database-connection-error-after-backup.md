@@ -1,7 +1,9 @@
 ---
-title: WordPress Database Connection Error After Migration
+title: "WordPress Database Connection Error After Migration"
+heading: "WordPress Database Connection Error After Migration"
 author: Jason McCreary
-excerpt: 'Sharing my *moment* with WordPress and its dreaded &quot;Error establishing a database connection&quot; after updating the database.'
+excerpt: "Sharing my *moment* with WordPress and its dreaded &quot;Error establishing a database connection&quot; after updating the database."
+subheading: "Sharing my *moment* with WordPress and its dreaded &quot;Error establishing a database connection&quot; after updating the database."
 layout: post
 comments: true
 permalink: /2011/03/wordpress-database-connection-error-after-backup/

@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Failures and Fuck-ups"
+heading: "Failures and Fuck-ups"
 date: 2014-06-10 15:00
 comments: true
 categories: 
 - Rants
-excerpt: A distinction between failure and fuck ups.
-description: A distinction between failure and fuck ups.
+excerpt: "A distinction between failure and fuck ups."
+subheading: "A distinction between failure and fuck ups."
+description: "A distinction between failure and fuck ups."
+subheading: "A distinction between failure and fuck ups."
 ---
 I tried to refine this post a few times. I can't. Honestly, it may not need refinement. So pull your socks up before reading.
 

@@ -1,12 +1,15 @@
 ---
 layout: post
-title: Fixing PHP Errors
+title: "Fixing PHP Errors"
+heading: "Fixing PHP Errors"
 date: 2013-05-21 09:04
 comments: true
 categories:
 - Main Thread
-excerpt: A guide to interpreting and fixing PHP errors.
-description: A guide to interpreting and fixing PHP errors.
+excerpt: "A guide to interpreting and fixing PHP errors."
+subheading: "A guide to interpreting and fixing PHP errors."
+description: "A guide to interpreting and fixing PHP errors."
+subheading: "A guide to interpreting and fixing PHP errors."
 ---
 I contribute on [Stack Overflow](http://stackoverflow.com/users/164998/jason-mccreary "Jason McCreary on Stack Overflow") regularly. I see an alarming [number of questions](http://stackoverflow.com/search?q=%22php+error%22) about fixing PHP errors. These questions often pertain to very basic errors. Even with the error message, these users still need help.
 

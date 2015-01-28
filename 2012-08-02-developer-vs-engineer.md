@@ -1,9 +1,9 @@
 ---
-title: Developer vs. Engineer
+title: "Developer vs. Engineer"
+heading: "Developer vs. Engineer"
 author: Jason McCreary
-excerpt: >
-  After interviewing with some top tech companies, I realized the difference
-  between a developer and an engineer.
+excerpt: "After interviewing with some top tech companies, I realized the difference between a developer and an engineer."
+subheading: "After interviewing with some top tech companies, I realized the difference between a developer and an engineer."
 layout: post
 comments: true
 permalink: /2012/08/developer-vs-engineer/

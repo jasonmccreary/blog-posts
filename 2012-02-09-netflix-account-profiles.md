@@ -1,7 +1,9 @@
 ---
-title: 'Netflix Feature Request: Multiple Account Profiles'
+title: "Netflix Feature Request: Multiple Account Profiles"
+heading: "Netflix Feature Request: Multiple Account Profiles"
 author: Jason McCreary
-excerpt: 'After recently sharing my Netflix account with my parents, I noticed a missing feature I believe is common in shared systems: User Profiles. This post is a letter to Netflix requesting this feature.'
+excerpt: "After recently sharing my Netflix account with my parents, I noticed a missing feature I believe is common in shared systems: User Profiles. This post is a letter to Netflix requesting this feature."
+subheading: "After recently sharing my Netflix account with my parents, I noticed a missing feature I believe is common in shared systems: User Profiles. This post is a letter to Netflix requesting this feature."
 layout: post
 comments: true
 permalink: /2012/02/netflix-account-profiles/

@@ -1,12 +1,15 @@
 ---
-title: Configuring Apache Virtual Hosts on Mac OS X
+title: "Configuring Apache Virtual Hosts on Mac OS X"
+heading: "Configuring Apache Virtual Hosts on Mac OS X"
 author: Jason McCreary
-excerpt: Tutorial for configuring Apache Virtual Hosts on Mac OS X.
+excerpt: "Tutorial for configuring Apache Virtual Hosts on Mac OS X."
+subheading: "Tutorial for configuring Apache Virtual Hosts on Mac OS X."
 layout: post
 comments: true
 categories:
   - Main Thread
-description: Tutorial for configuring Apache Virtual Hosts on Mac OS X.
+description: "Tutorial for configuring Apache Virtual Hosts on Mac OS X."
+subheading: "Tutorial for configuring Apache Virtual Hosts on Mac OS X."
 ---
 *mountaindogmedia* left the following comment on my post for [installing Apache, PHP, and MySQL on Mac OS X](/2012/10/install-apache-php-mysql-mac-os-x/):
 

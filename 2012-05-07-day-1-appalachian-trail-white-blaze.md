@@ -1,9 +1,9 @@
 ---
-title: 'Day 1: White Blaze'
+title: "Day 1: White Blaze"
+heading: "Day 1: White Blaze"
 author: Jason McCreary
-excerpt: >
-  The journal entry from the first day of my Georgia section hike through the
-  Appalachian Trail.
+excerpt: "The journal entry from the first day of my Georgia section hike through the Appalachian Trail."
+subheading: "The journal entry from the first day of my Georgia section hike through the Appalachian Trail."
 layout: post
 comments: true
 permalink: /2012/05/day-1-appalachian-trail-white-blaze/

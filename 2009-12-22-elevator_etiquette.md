@@ -1,9 +1,9 @@
 ---
-title: Elevator Etiquette
+title: "Elevator Etiquette"
+heading: "Elevator Etiquette"
 author: Jason McCreary
-excerpt: >
-  After an awkward elevator ride at the end of an already long day, I established
-  an elevator etiquette.
+excerpt: "After an awkward elevator ride at the end of an already long day, I established an elevator etiquette."
+subheading: "After an awkward elevator ride at the end of an already long day, I established an elevator etiquette."
 layout: post
 comments: true
 permalink: /2009/12/elevator_etiquette/

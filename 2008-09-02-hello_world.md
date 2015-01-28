@@ -1,7 +1,9 @@
 ---
-title: '&quot;Hello World&quot;'
+title: "&quot;Hello World&quot;"
+heading: "&quot;Hello World&quot;"
 author: Jason McCreary
 excerpt: "If you didn't guess from the title, this is my first article. What does it contain? A look back at the development of this site, of course. I outline the pieces of this site with general development tips."
+subheading: "If you didn't guess from the title, this is my first article. What does it contain? A look back at the development of this site, of course. I outline the pieces of this site with general development tips."
 layout: post
 comments: true
 permalink: /2008/09/hello_world/

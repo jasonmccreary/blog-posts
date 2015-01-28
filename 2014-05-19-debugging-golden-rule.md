@@ -1,12 +1,15 @@
 ---
 layout: post
-title: The Debugging Golden Rule
+title: "The Debugging Golden Rule"
+heading: "The Debugging Golden Rule"
 date: 2014-05-19 21:23
 comments: true
 categories:
 - Main Thread
-excerpt: Developers need to remember the Debugging Golden Rule.
-description: Developers need to remember the Debugging Golden Rule.
+excerpt: "Developers need to remember the Debugging Golden Rule."
+subheading: "Developers need to remember the Debugging Golden Rule."
+description: "Developers need to remember the Debugging Golden Rule."
+subheading: "Developers need to remember the Debugging Golden Rule."
 ---
 
 > Don't question others until you've questioned yourself.

@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Are you a Boy Scout?"
+heading: "Are you a Boy Scout?"
 date: 2015-01-01 11:37
 comments: true
 categories:
   - Rants
-description: A look at how the simple practice of "boyscouting" can improve your code.
-excerpt: A look at how the simple practice of "boyscouting" can improve your code.
+description: 'A look at how the simple practice of "boyscouting" can improve your code.'
+subheading: 'A look at how the simple practice of "boyscouting" can improve your code.'
+excerpt: 'A look at how the simple practice of "boyscouting" can improve your code.'
+subheading: 'A look at how the simple practice of "boyscouting" can improve your code.'
 ---
 About a year ago [Samuel Goodwin](https://twitter.com/samuelgoodwin) left a commit message of *"Boyscouting"*. When I asked him about the commit he reminded me of the Boy Scouts ~~motto~~ <sup>[[1]](#footnote1)</sup>:
 

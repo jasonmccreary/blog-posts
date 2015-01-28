@@ -1,9 +1,9 @@
 ---
-title: 'Be a Better PHP Developer: The Basics'
+title: "Be a Better PHP Developer: The Basics"
+heading: "Be a Better PHP Developer: The Basics"
 author: Jason McCreary
-excerpt: >
-  After reviewing thousands of lines of code over the last few years, I compiled a
-  list of simple tips to help you be a better PHP developer.
+excerpt: "After reviewing thousands of lines of code over the last few years, I compiled a list of simple tips to help you be a better PHP developer."
+subheading: "After reviewing thousands of lines of code over the last few years, I compiled a list of simple tips to help you be a better PHP developer."
 layout: post
 comments: true
 permalink: /2012/08/better-php-developer/

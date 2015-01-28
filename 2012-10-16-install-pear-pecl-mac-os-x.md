@@ -1,7 +1,9 @@
 ---
-title: Install PEAR and PECL on Mac OS X
+title: "Install PEAR and PECL on Mac OS X"
+heading: "Install PEAR and PECL on Mac OS X"
 author: Jason McCreary
-excerpt: This post outlines how to install PEAR and PECL on Mac OS X.
+excerpt: "This post outlines how to install PEAR and PECL on Mac OS X."
+subheading: "This post outlines how to install PEAR and PECL on Mac OS X."
 layout: post
 comments: true
 permalink: /2012/10/install-pear-pecl-mac-os-x/
@@ -11,7 +13,8 @@ tags:
   - development
   - mac
   - php
-description: This post outlines how to install PEAR and PECL on Mac OS X.
+description: "This post outlines how to install PEAR and PECL on Mac OS X."
+subheading: "This post outlines how to install PEAR and PECL on Mac OS X."
 ---
 The following instructions install [PEAR][1] and [PECL][2] on Mac OS X under **/usr/local/**. PECL is bundled with PEAR. So this is as simple as installing PEAR on Mac OS X.
 

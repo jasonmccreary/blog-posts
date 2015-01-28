@@ -1,7 +1,9 @@
 ---
-title: 'Guidance Text using CakePHP&#8217;s Form Helper'
+title: "Guidance Text using CakePHP&#8217;s Form Helper"
+heading: "Guidance Text using CakePHP&#8217;s Form Helper"
 author: Jason McCreary
 excerpt: "A quick post on outputting the proper markup for guidance text using CakePHP's Form Helper."
+subheading: "A quick post on outputting the proper markup for guidance text using CakePHP's Form Helper."
 layout: post
 comments: true
 permalink: /2011/04/cakphp_form_helper_guidance_instructional_text/

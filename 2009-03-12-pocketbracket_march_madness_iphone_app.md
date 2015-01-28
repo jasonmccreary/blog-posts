@@ -1,7 +1,9 @@
 ---
-title: 'iPhone App: PocketBracket &#8211; March Madness'
+title: "iPhone App: PocketBracket &#8211; March Madness"
+heading: "iPhone App: PocketBracket &#8211; March Madness"
 author: Jason McCreary
 excerpt: "An article about the process of creating my first iPhone Application - PocketBracket: March Madness. I revisit everything from development to marketing, and the story doesn't end there."
+subheading: "An article about the process of creating my first iPhone Application - PocketBracket: March Madness. I revisit everything from development to marketing, and the story doesn't end there."
 layout: post
 comments: true
 permalink: /2009/03/pocketbracket_march_madness_iphone_app/

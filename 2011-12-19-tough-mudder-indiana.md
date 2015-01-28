@@ -1,7 +1,9 @@
 ---
-title: Tough Mudder Indiana
+title: "Tough Mudder Indiana"
+heading: "Tough Mudder Indiana"
 author: Jason McCreary
-excerpt: 'An article about our first Tough Mudder - the Tough Mudder Indiana at Badlands Off Road Park in late November 2011.'
+excerpt: "An article about our first Tough Mudder - the Tough Mudder Indiana at Badlands Off Road Park in late November 2011."
+subheading: "An article about our first Tough Mudder - the Tough Mudder Indiana at Badlands Off Road Park in late November 2011."
 layout: post
 comments: true
 permalink: /2011/12/tough-mudder-indiana/

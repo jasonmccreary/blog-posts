@@ -1,9 +1,9 @@
 ---
-title: Updating SVN for Mac OS X
+title: "Updating SVN for Mac OS X"
+heading: "Updating SVN for Mac OS X"
 author: Jason McCreary
-excerpt: >
-  This post outlines updating SVN for Mac OS X. I updated after realizing new apps
-  used SVN 1.7 while Mac OS X Mountain Lion used SVN 1.6.
+excerpt: "This post outlines updating SVN for Mac OS X. I updated after realizing new apps used SVN 1.7 while Mac OS X Mountain Lion used SVN 1.6."
+subheading: "This post outlines updating SVN for Mac OS X. I updated after realizing new apps used SVN 1.7 while Mac OS X Mountain Lion used SVN 1.6."
 layout: post
 comments: true
 permalink: /2012/10/updating-svn-mac-os-x/

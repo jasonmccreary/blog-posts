@@ -1,9 +1,9 @@
 ---
-title: The Fallout of Babel
+title: "The Fallout of Babel"
+heading: "The Fallout of Babel"
 author: Jason McCreary
-excerpt: >
-  A rant on what diversity, particularly in the development community, costs in
-  respect to advancement.
+excerpt: "A rant on what diversity, particularly in the development community, costs in respect to advancement."
+subheading: "A rant on what diversity, particularly in the development community, costs in respect to advancement."
 layout: post
 comments: true
 permalink: /2008/12/fallout_of_babel/

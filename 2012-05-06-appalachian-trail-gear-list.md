@@ -1,7 +1,9 @@
 ---
-title: Appalachian Trail Gear List
+title: "Appalachian Trail Gear List"
+heading: "Appalachian Trail Gear List"
 author: Jason McCreary
-excerpt: The complete gear list for my Georgia section hike of the Appalachian Trail.
+excerpt: "The complete gear list for my Georgia section hike of the Appalachian Trail."
+subheading: "The complete gear list for my Georgia section hike of the Appalachian Trail."
 layout: post
 comments: true
 permalink: /2012/05/appalachian-trail-gear-list/
@@ -9,7 +11,8 @@ categories:
   - Appalachian Trail
 tags:
   - hiking
-description: The complete gear list for my Georgia section hike of the Appalachian Trail.
+description: "The complete gear list for my Georgia section hike of the Appalachian Trail."
+subheading: "The complete gear list for my Georgia section hike of the Appalachian Trail."
 ---
 The following is a complete gear list for my 14-day hike through the Georgia section of the Appalachian Trail. Without water, my pack weighted 43lbs. I chose to only resupply once. So I carried a 7-day food supply. Otherwise, I imagine my pack could have been under 40lbs.
 

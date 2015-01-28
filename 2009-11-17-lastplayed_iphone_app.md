@@ -1,7 +1,9 @@
 ---
-title: 'iPhone App: LastPlayed'
+title: "iPhone App: LastPlayed"
+heading: "iPhone App: LastPlayed"
 author: Jason McCreary
-excerpt: 'A description of my recent iPhone App - LastPlayed. Including development notes, marketing strategy, future direction, and an invitation for your feedback. Complete with a shameless plug for you to download the app for free.'
+excerpt: "A description of my recent iPhone App - LastPlayed. Including development notes, marketing strategy, future direction, and an invitation for your feedback. Complete with a shameless plug for you to download the app for free."
+subheading: "A description of my recent iPhone App - LastPlayed. Including development notes, marketing strategy, future direction, and an invitation for your feedback. Complete with a shameless plug for you to download the app for free."
 layout: post
 comments: true
 permalink: /2009/11/lastplayed_iphone_app/

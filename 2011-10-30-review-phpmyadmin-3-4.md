@@ -1,7 +1,9 @@
 ---
-title: Review of PHPMyAdmin 3.4
+title: "Review of PHPMyAdmin 3.4"
+heading: "Review of PHPMyAdmin 3.4"
 author: Jason McCreary
 excerpt: "PHPMyAdmin 3.4 came with many UI changes. After a few months of using PHPMyAdmin 3.4, I'm weighing the pros and cons."
+subheading: "PHPMyAdmin 3.4 came with many UI changes. After a few months of using PHPMyAdmin 3.4, I'm weighing the pros and cons."
 layout: post
 comments: true
 permalink: /2011/10/review-phpmyadmin-3-4/

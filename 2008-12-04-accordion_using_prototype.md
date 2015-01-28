@@ -1,10 +1,9 @@
 ---
-title: JavaScript Accordion using Prototype
+title: "JavaScript Accordion using Prototype"
+heading: "JavaScript Accordion using Prototype"
 author: Jason McCreary
-excerpt: >
-  So there are several accordion solutions out there. But after reviewing a few, I
-  created this hybrid using lean markup, simple CSS, and the Prototype and
-  Scriptaculous libraries which degrades better than its predecessors.
+excerpt: "So there are several accordion solutions out there. But after reviewing a few, I created this hybrid using lean markup, simple CSS, and the Prototype and Scriptaculous libraries which degrades better than its predecessors."
+subheading: "So there are several accordion solutions out there. But after reviewing a few, I created this hybrid using lean markup, simple CSS, and the Prototype and Scriptaculous libraries which degrades better than its predecessors."
 layout: post
 comments: true
 permalink: /2008/12/accordion_using_prototype/

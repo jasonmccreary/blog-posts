@@ -1,9 +1,9 @@
 ---
-title: 'AWOFT: Meetings'
+title: "AWOFT: Meetings"
+heading: "AWOFT: Meetings"
 author: Jason McCreary
-excerpt: >
-  Some quick guidelines on how to keep your everyday work meetings from being a
-  waste of time.
+excerpt: "Some quick guidelines on how to keep your everyday work meetings from being a waste of time."
+subheading: "Some quick guidelines on how to keep your everyday work meetings from being a waste of time."
 layout: post
 comments: true
 permalink: /2009/11/awoft_meetings/

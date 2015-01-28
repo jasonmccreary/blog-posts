@@ -1,7 +1,9 @@
 ---
 title: "Why [certain language] developers are better developers"
+heading: "Why [certain language] developers are better developers"
 author: Jason McCreary
 excerpt: "An evaluation of the argument 'Why [certain language] developers are better developers' and why it might be valid."
+subheading: "An evaluation of the argument 'Why [certain language] developers are better developers' and why it might be valid."
 layout: post
 comments: true
 permalink: /2012/12/better-developers/

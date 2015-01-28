@@ -1,9 +1,9 @@
 ---
-title: 'Day 6: Trail Legs'
+title: "Day 6: Trail Legs"
+heading: "Day 6: Trail Legs"
 author: Jason McCreary
-excerpt: >
-  The journal entry from the sixth day of my Georgia section hike through the
-  Appalachian Trail.
+excerpt: "The journal entry from the sixth day of my Georgia section hike through the Appalachian Trail."
+subheading: "The journal entry from the sixth day of my Georgia section hike through the Appalachian Trail."
 layout: post
 comments: true
 permalink: /2012/05/day-6-appalachian-trail-trail-legs/

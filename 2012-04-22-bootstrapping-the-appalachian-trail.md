@@ -1,9 +1,9 @@
 ---
-title: Bootstrapping the Appalachian Trail
+title: "Bootstrapping the Appalachian Trail"
+heading: "Bootstrapping the Appalachian Trail"
 author: Jason McCreary
-excerpt: >
-  In May I set out a 14 day, 206 mile hike through the Georgia section of the
-  Appalachian Trail continuing on to the Great Smoky Mountains.
+excerpt: "In May I set out a 14 day, 206 mile hike through the Georgia section of the Appalachian Trail continuing on to the Great Smoky Mountains."
+subheading: "In May I set out a 14 day, 206 mile hike through the Georgia section of the Appalachian Trail continuing on to the Great Smoky Mountains."
 layout: post
 comments: true
 permalink: /2012/04/bootstrapping-the-appalachian-trail/

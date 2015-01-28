@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Why Apple should buy Spotify"
+heading: "Why Apple should buy Spotify"
 date: 2013-01-18 11:51
 comments: true
 categories:
   - Rants
-excerpt: An app developer's take on why Apple should buy Spotify.
-description: An app developer's take on why Apple should buy Spotify.
+excerpt: "An app developer's take on why Apple should buy Spotify."
+subheading: "An app developer's take on why Apple should buy Spotify."
+description: "An app developer's take on why Apple should buy Spotify."
+subheading: "An app developer's take on why Apple should buy Spotify."
 ---
 I'm not always up-to-date with music. I listen to what I listen to. But as a developer music services interest me.
 

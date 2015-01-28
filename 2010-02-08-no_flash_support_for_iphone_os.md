@@ -1,10 +1,9 @@
 ---
-title: 'An Active Choice: No Flash Support for iPhone, iPad'
+title: "An Active Choice: No Flash Support for iPhone, iPad"
+heading: "An Active Choice: No Flash Support for iPhone, iPad"
 author: Jason McCreary
-excerpt: >
-  I constantly see headlines for articles that just whine about the lack of Flash
-  support on the iPhone OS. This is my believe as to why Flash is not supported in
-  the iPhone OS.
+excerpt: "I constantly see headlines for articles that just whine about the lack of Flash support on the iPhone OS. This is my believe as to why Flash is not supported in the iPhone OS."
+subheading: "I constantly see headlines for articles that just whine about the lack of Flash support on the iPhone OS. This is my believe as to why Flash is not supported in the iPhone OS."
 layout: post
 comments: true
 permalink: /2010/02/no_flash_support_for_iphone_os/

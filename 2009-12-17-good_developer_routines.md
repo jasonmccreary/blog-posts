@@ -1,9 +1,9 @@
 ---
-title: Routines of a good developer
+title: "Routines of a good developer"
+heading: "Routines of a good developer"
 author: Jason McCreary
-excerpt: >
-  A reflection on the routines I believe make me a good developer and look for in
-  developers around me.
+excerpt: "A reflection on the routines I believe make me a good developer and look for in developers around me."
+subheading: "A reflection on the routines I believe make me a good developer and look for in developers around me."
 layout: post
 comments: true
 permalink: /2009/12/good_developer_routines/

@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "How to win Family Feud"
+heading: "How to win Family Feud"
 date: 2013-03-03 15:32
 comments: true
 categories:
   - Rants
-excerpt: A strategy for winning the Family Feud game show based on probability and extensive viewership.
+excerpt: "A strategy for winning the Family Feud game show based on probability and extensive viewership."
+subheading: "A strategy for winning the Family Feud game show based on probability and extensive viewership."
 description: A strategy for winning the Family Feud game show based on probability and extensive viewership. 
 ---
 

@@ -1,10 +1,9 @@
 ---
-title: 'My Talk at WordCamp Chicago: Configuring WordPress for Multiple Environments'
+title: "My Talk at WordCamp Chicago: Configuring WordPress for Multiple Environments"
+heading: "My Talk at WordCamp Chicago: Configuring WordPress for Multiple Environments"
 author: Jason McCreary
-excerpt: >
-  A follow up post about my talk on Configuring WordPress for Multiple
-  Environments at WordCamp Chicago. It includes a link to the original blog post,
-  slides, code samples, and a note about the proposed Unconference Talk.
+excerpt: "A follow up post about my talk on Configuring WordPress for Multiple Environments at WordCamp Chicago. It includes a link to the original blog post, slides, code samples, and a note about the proposed Unconference Talk."
+subheading: "A follow up post about my talk on Configuring WordPress for Multiple Environments at WordCamp Chicago. It includes a link to the original blog post, slides, code samples, and a note about the proposed Unconference Talk."
 layout: post
 comments: true
 permalink: /2011/07/wordcamp-chicago-talk-configuring-multiple-environments-wordpress/

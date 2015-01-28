@@ -1,9 +1,9 @@
 ---
-title: CSS Organizer and Minifier
+title: "CSS Organizer and Minifier"
+heading: "CSS Organizer and Minifier"
 author: Jason McCreary
-excerpt: >
-  A specification for developing a functional CSS Organization and Minification
-  tool that can be used to manage CSS files.
+excerpt: "A specification for developing a functional CSS Organization and Minification tool that can be used to manage CSS files."
+subheading: "A specification for developing a functional CSS Organization and Minification tool that can be used to manage CSS files."
 layout: post
 comments: true
 permalink: /2008/10/css_organizer_and_minifier/

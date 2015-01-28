@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "The Reading List"
+heading: "The Reading List"
 date: 2014-09-11 08:19
 comments: true
 categories:
 - Main Thread
-excerpt: A list of books culled over the years on the journey to improve my craft as a software engineer.
-description: A list of books culled over the years on the journey to improve my craft as a software engineer.
+excerpt: "A list of books culled over the years on the journey to improve my craft as a software engineer."
+subheading: "A list of books culled over the years on the journey to improve my craft as a software engineer."
+description: "A list of books culled over the years on the journey to improve my craft as a software engineer."
+subheading: "A list of books culled over the years on the journey to improve my craft as a software engineer."
 ---
 A few years ago I continued my journey to become a true [software engineer](http://jason.pureconcepts.net/2012/08/developer-vs-engineer/). I interviewed with big tech names and worked with brilliant people. Along the way, I asked for ways to improve my craft.
 

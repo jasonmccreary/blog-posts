@@ -1,9 +1,9 @@
 ---
-title: Installing Apache, PHP, and MySQL on Mac OS X
+title: "Installing Apache, PHP, and MySQL on Mac OS X"
+heading: "Installing Apache, PHP, and MySQL on Mac OS X"
 author: Jason McCreary
-excerpt: >
-  This post outlines installing Apache, PHP, and MySQL on Mac OS X. In addition, I
-  cover configuring Virtual Hosts and installing PHPMyAdmin.
+excerpt: "This post outlines installing Apache, PHP, and MySQL on Mac OS X. In addition, I cover configuring Virtual Hosts and installing PHPMyAdmin."
+subheading: "This post outlines installing Apache, PHP, and MySQL on Mac OS X. In addition, I cover configuring Virtual Hosts and installing PHPMyAdmin."
 layout: post
 comments: true
 permalink: /2012/10/install-apache-php-mysql-mac-os-x/

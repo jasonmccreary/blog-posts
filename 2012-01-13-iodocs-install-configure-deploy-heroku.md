@@ -1,7 +1,9 @@
 ---
-title: Installing, Configuring, and Deploying I/O Docs
+title: "Installing, Configuring, and Deploying I/O Docs"
+heading: "Installing, Configuring, and Deploying I/O Docs"
 author: Jason McCreary
-excerpt: 'This post covers installing, configuring, and deploying (Heroku) I/O Docs - a live interactive documentation system for RESTful web APIs developed with node.js and redis.'
+excerpt: "This post covers installing, configuring, and deploying (Heroku) I/O Docs - a live interactive documentation system for RESTful web APIs developed with node.js and redis."
+subheading: "This post covers installing, configuring, and deploying (Heroku) I/O Docs - a live interactive documentation system for RESTful web APIs developed with node.js and redis."
 layout: post
 comments: true
 permalink: /2012/01/iodocs-install-configure-deploy-heroku/

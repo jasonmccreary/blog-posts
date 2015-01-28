@@ -1,7 +1,9 @@
 ---
-title: Tough Mudder Challenge
+title: "Tough Mudder Challenge"
+heading: "Tough Mudder Challenge"
 author: Jason McCreary
 excerpt: "In two weeks I, as part of team #tigerblood, will accept the Tough Mudder Challenge - a 21 obstacle, 12 miles challenge course."
+subheading: "In two weeks I, as part of team #tigerblood, will accept the Tough Mudder Challenge - a 21 obstacle, 12 miles challenge course."
 layout: post
 comments: true
 permalink: /2011/11/tough-mudder-challenge/
@@ -10,6 +12,7 @@ categories:
 tags:
   - tough mudder
 description: "In two weeks I, as part of team #tigerblood, will accept the Tough Mudder Challenge - a 21 obstacle, 12 miles challenge course."
+subheading: "In two weeks I, as part of team #tigerblood, will accept the Tough Mudder Challenge - a 21 obstacle, 12 miles challenge course."
 ---
 In two weeks I, as part of team #tigerblood, will accept the [Tough Mudder][1] challenge. [This course][2], located in northern Indiana, will consist of 21 obstacles over 12 miles. The course is over rough terrain with elevation changes, water, and mud. I expect to be wet the whole time. Since *winter is coming* the cold will be a factor.
 

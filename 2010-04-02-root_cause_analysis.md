@@ -1,7 +1,9 @@
 ---
-title: Root Cause Analysis
+title: "Root Cause Analysis"
+heading: "Root Cause Analysis"
 author: Jason McCreary
-excerpt: 'A rant that revisits the most important and unfortunately most forgotten component of problem solving - root cause analysis.'
+excerpt: "A rant that revisits the most important and unfortunately most forgotten component of problem solving - root cause analysis."
+subheading: "A rant that revisits the most important and unfortunately most forgotten component of problem solving - root cause analysis."
 layout: post
 comments: true
 permalink: /2010/04/root_cause_analysis/

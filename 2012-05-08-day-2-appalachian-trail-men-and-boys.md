@@ -1,9 +1,9 @@
 ---
-title: 'Day 2: Men and Boys'
+title: "Day 2: Men and Boys"
+heading: "Day 2: Men and Boys"
 author: Jason McCreary
-excerpt: >
-  The journal entry from the second day of my Georgia section hike through the
-  Appalachian Trail.
+excerpt: "The journal entry from the second day of my Georgia section hike through the Appalachian Trail."
+subheading: "The journal entry from the second day of my Georgia section hike through the Appalachian Trail."
 layout: post
 comments: true
 permalink: /2012/05/day-2-appalachian-trail-men-and-boys/

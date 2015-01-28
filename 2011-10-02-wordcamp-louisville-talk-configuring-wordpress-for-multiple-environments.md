@@ -1,9 +1,9 @@
 ---
-title: 'My Talk at WordCamp Louisville: Configuring WordPress for Multiple Environments'
+title: "My Talk at WordCamp Louisville: Configuring WordPress for Multiple Environments"
+heading: "My Talk at WordCamp Louisville: Configuring WordPress for Multiple Environments"
 author: Jason McCreary
-excerpt: >
-  A follow up post from my talk on Configuring WordCamp for Multiple Environments
-  at WordCamp Louisville 2011.
+excerpt: "A follow up post from my talk on Configuring WordCamp for Multiple Environments at WordCamp Louisville 2011."
+subheading: "A follow up post from my talk on Configuring WordCamp for Multiple Environments at WordCamp Louisville 2011."
 layout: post
 comments: true
 permalink: /2011/10/wordcamp-louisville-talk-configuring-wordpress-for-multiple-environments/

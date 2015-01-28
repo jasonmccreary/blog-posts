@@ -1,9 +1,9 @@
 ---
-title: Tough Mudder Kentucky
+title: "Tough Mudder Kentucky"
+heading: "Tough Mudder Kentucky"
 author: Jason McCreary
-excerpt: >
-  A review of our second Tough Mudder. This course in Kentucky. As well as a quick
-  look at why I am a Tough Mudder.
+excerpt: "A review of our second Tough Mudder. This course in Kentucky. As well as a quick look at why I am a Tough Mudder."
+subheading: "A review of our second Tough Mudder. This course in Kentucky. As well as a quick look at why I am a Tough Mudder."
 layout: post
 comments: true
 permalink: /2012/11/tough-mudder-kentucky/

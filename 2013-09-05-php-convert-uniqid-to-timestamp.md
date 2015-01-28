@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "Convert uniqid() to a timestamp"
+heading: "Convert uniqid() to a timestamp"
 date: 2013-09-05 15:04
 comments: true
 categories: 
 - Main Thread
-excerpt: A proof on how you can convert <code>uniqid()</code> to a Unix timestamp in PHP.
+excerpt: "A proof on how you can convert <code>uniqid()</code> to a Unix timestamp in PHP."
+subheading: "A proof on how you can convert <code>uniqid()</code> to a Unix timestamp in PHP."
 description: A proof on how you can convert uniqid() to a Unix timestamp in PHP.
 ---
 I came across an interesting [question on StackOverflow](http://stackoverflow.com/questions/18642234/convert-uniqid-to-timestamp "Convert uniqid() to timestamp"). Unfortunately the question was closed before I could answer. I'd like to answer it.
