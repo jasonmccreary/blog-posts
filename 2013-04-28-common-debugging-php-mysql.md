@@ -29,17 +29,15 @@ If you cannot connect to the database, you need to start at the beginning: Ensur
 ## Can you connect to the database inside your application?
 Verify you can connect to the database from PHP. Test with a separate script to also rule out bugs in your codebase:
 
-``` php
-<?php
-$link = mysqli_connect('localhost', 'my_user', 'my_password', 'my_db');
 
-if (!$link) {
-    die('Connect Error (' . mysqli_connect_errno() . ') '
-            . mysqli_connect_error());
-}
+	<?php
+	$link = mysqli_connect('localhost', 'my_user', 'my_password', 'my_db');
 
-echo 'Connected... ' . mysqli_get_host_info($link) . "\n";
-```
+	if (!$link) {
+	    die('Connect Error (' . mysqli_connect_errno() . ') ' . mysqli_connect_error());
+	}
+
+	echo 'Connected... ' . mysqli_get_host_info($link) . "\n";
 
 If this code connects, but your application code does not, debug your application code.
 
@@ -48,13 +46,12 @@ If this code does not connect use the output for clues. You can also check your 
 ## Does your query run successfully?
 More often than not the query is the problem. Especially if the query is generated dynamically. The best way to verify your query it to output and run it yourself.
 
-``` php
-$sql = 'SELECT column FROM table WHERE column = $bad_var';
-echo $sql;
-if (!$mysqli->query($sql)) {
-    echo 'Error: ', $mysqli->error;
-}
-```
+	<?php
+	$sql = 'SELECT column FROM table WHERE column = $bad_var';
+	echo $sql;
+	if (!$mysqli->query($sql)) {
+	    echo 'Error: ', $mysqli->error;
+	}
 
 In this case, we'd see that `$bad_var` is not set. As such, the query becomes:
 

@@ -29,14 +29,12 @@ I am not a sysadmin. Nonetheless, to mitigate any security concerns I set permis
 
 In addition, I have moved some of the configuration settings related to the multitenant install to the core `wp-config.php`. This prevents tenants from changing their configuration. And as you can not redeclare PHP contants, they can not overwrite this configuration.
 
-``` php Core wp-config.php
-// set global configurations
-define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
-define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+	// set global configurations
+	define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
+	define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 
-// load site-specific configurations
-require_once dirname($_SERVER['DOCUMENT_ROOT']) . '/wp-config.php';
-```
+	// load site-specific configurations
+	require_once dirname($_SERVER['DOCUMENT_ROOT']) . '/wp-config.php';
 
 I also follow common WordPress secuity practices, such moving `wp-config.php` outside webroot for both the core and tenant installs. 
 

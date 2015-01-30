@@ -11,13 +11,13 @@ subheading: 'A look at how the simple practice of "boyscouting" can improve your
 excerpt: 'A look at how the simple practice of "boyscouting" can improve your code.'
 subheading: 'A look at how the simple practice of "boyscouting" can improve your code.'
 ---
-About a year ago [Samuel Goodwin](https://twitter.com/samuelgoodwin) left a commit message of *"Boyscouting"*. When I asked him about the commit he reminded me of the Boy Scouts ~~motto~~ <sup>[[1]](#footnote1)</sup>:
+About a year ago [Samuel Goodwin](https://twitter.com/samuelgoodwin) left a commit message of *"Boyscouting"*. When I asked him about the commit he reminded me of the Boy Scouts <s>motto</s> <sup>[[1]](#footnote1)</sup>:
 
 > Leave it better than you found it.
 
 Applied to development, this meant [eliminating dead code](http://en.wikipedia.org/wiki/Dead_code_elimination), removing comments, and standardizing format. Samuel did this before he made changes.
 
-Since then, I have tried to follow this practice. It requires discipline. Not only in routine, but in restraint. It's tempting to add other changes to your *"Boyscouting"* commit.
+Since then, I have tried to follow this practice <sup>[[2]](#footnote2)</sup>. It requires discipline. Not only in routine, but in restraint. It's tempting to add other changes to your *"Boyscouting"* commit.
 
 It is important to understand boyscouting does not *change* code, only *cleans* it. Boyscouting is not refactoring. Boyscouting is not fixing bugs.
 

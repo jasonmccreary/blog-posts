@@ -27,57 +27,53 @@ So namespaces focus on  *re-usable code elements*. Let's look at the two problem
 
 Consider the following namespaces and classes:
 
-``` php MyApp/Service.php
-	namespace MyApp;
-	
-	class Service {
-		public function method() {
-			echo __NAMESPACE__ . '\Service';
-		}
-	}
-```
+    // MyApp/Service.php
+    namespace MyApp;
+    
+    class Service {
+        public function method() {
+            echo __NAMESPACE__ . '\Service';
+        }
+    }
 
-``` php MyApp/ComponentA/Service.php
-	namespace MyApp\ComponentA;
-	
-	class Service {
-		public function method() {
-			echo __NAMESPACE__ . '\Service';
-		}
-	}
-```
+    // MyApp/ComponentA/Service.php
+    namespace MyApp\ComponentA;
+    
+    class Service {
+        public function method() {
+            echo __NAMESPACE__ . '\Service';
+        }
+    }
 
 A `Controller` class with `use`:
 
-``` php MyApp/Controller.php
-	namespace MyApp;
-	
-	use MyApp\ComponentA\Service;
-	
-	class Controller {
-		public function output() {
-			$service = new Service();
-			$service->method();
-		}
-	}
-```
+    // MyApp/Controller.php
+    namespace MyApp;
+    
+    use MyApp\ComponentA\Service;
+    
+    class Controller {
+        public function output() {
+            $service = new Service();
+            $service->method();
+        }
+    }
 
 Which `Service` class is created? `MyApp\Service` or `MyApp\ComponentA\Service`?
 
-It may be straightfoward with the entire codebase in front of you. But consider a larger codebase. What if you refactored `output()` into another class? It all depends on the `use` statement. Meaning the code is tightly coupled with `use`.
+It may be straightfoward with the entire codebase fits within your screen. But consider a larger codebase. What if you refactored `output()` into another class? It all depends on the `use` statement. Meaning the code is tightly coupled with `use`.
 
 The same `Controller` class without `use`:
 
-``` php MyApp/Controller.php
-	namespace MyApp;
-	
-	class Controller {
-		public function output() {
-			$service = new MyApp\ComponentA\Service();
-			$service->method();
-		}
-	}
-```
+    // MyApp/Controller.php
+    namespace MyApp;
+
+    class Controller {
+      public function output() {
+        $service = new MyApp\ComponentA\Service();
+        $service->method();
+      }
+    }
 
 No question on which `Service` class is created and no coupling.
 

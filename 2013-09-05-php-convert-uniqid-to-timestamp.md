@@ -22,20 +22,13 @@ From the [PHP documentation on `uniqid()`](http://php.net/manual/en/function.uni
 
 The comments note that `uniqid()` outputs a hexadecimal string. So let’s convert `microtime()` to a hexadecimal string and compare it to `uniqid()`.
 
-``` php
 	<?php
 	$microtime = microtime(true);
 	$id = uniqid();
 
-	echo dechex($microtime);
-	echo PHP_EOL;
-	echo $id;
-```
+	echo dechex($microtime); // 5228cee5
+	echo $id;                // 5228cee5564a0
 
-``` text Script Output
-	5228cee5
-	5228cee5564a0
-```
 
 We see both share the same prefix (`5228cee5`). So what are the remaining characters of `uniqid()`?
 
@@ -43,7 +36,6 @@ Turns out the answer is pretty obvious. It's the microseconds. But `uniqid()` do
 
 Let’s take another look:
 
-``` php
 	<?php
 	$microtime = microtime();
 	$id = uniqid();
@@ -51,14 +43,8 @@ Let’s take another look:
 	list($microseconds, $timestamp) = explode(' ', $microtime);
 	$suffix = str_replace(dechex($timestamp), '', $id);
 
-	echo $microseconds, PHP_EOL;
-	echo '0.', hexdec($suffix), PHP_EOL;
-```
-
-``` text Script Output
-	0.23929900
-	0.239327
-```
+	echo $microseconds;          // 0.23929900
+	echo '0.', hexdec($suffix);  // 0.239327
 
 Pretty close. The few nanosecond difference is the runtime between executing line 1 and 2.
 
@@ -68,10 +54,8 @@ Why then did I say *sort of*?
 
 The suffix. If you run the last script enough you'll notice an inconsistency for low microsecond values.
 
-``` text Script Output
 	0.00997400
 	0.9984
-```
 
 Notice the leading zeroes are missing. So you can’t get a timestamp *with microsecond precision* from `uniqid()`.
 
@@ -79,15 +63,10 @@ However, given this inconsistency, can we trust the suffix is a specific number 
 
 The documentation states, without parameters, `uniqid()` returns 13 characters. That said, the simplest code to get the timestamp from `uniqid()` is to extract the prefix:
 
-``` php
 	<?php
 	$timestamp = substr(uniqid(), 0, -5);
-	echo date('r', hexdec($timestamp));
-```
+	echo date('r', hexdec($timestamp));  // Thu, 05 Sep 2013 15:55:04 -0400
 
-``` text Script Output
-	Thu, 05 Sep 2013 15:55:04 -0400
-```
 
 Why the negative anchor? Consider the Unix timestamp `4294967296`. You don't want to start *Y2.1K*!
 

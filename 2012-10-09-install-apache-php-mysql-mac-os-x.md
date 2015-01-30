@@ -20,7 +20,7 @@ description: This post outlines installing Apache, PHP, and MySQL on Mac OS X. I
 
 ***OS X Mavericks Update:** I added steps for existing installs which **upgraded** to Mac OS X Mavericks. For new installs of Apache, PHP, and MySQL on Mac OS X Mavericks, continue reading.*
 
-I have installed Apache, PHP, and MySQL on Mac OS X since Leopard. Each time doing so by hand. Each version of Mac OS X having some minor difference. This post serves as much for my own record as to outline how to install Apache, MySQL, and PHP for a local development environment on Mac OS X ~~Mountain Lion~~ Mavericks.
+I have installed Apache, PHP, and MySQL on Mac OS X since Leopard. Each time doing so by hand. Each version of Mac OS X having some minor difference. This post serves as much for my own record as to outline how to install Apache, MySQL, and PHP for a local development environment on Mac OS X <s>Mountain Lion</s> Mavericks.
 
 I am aware of the several packages available, notably [MAMP][1]. These packages help get you started quickly. But they forego the learning experience and, as most developers report, eventually break. Personally, the choice to do it myself has proven invaluable.
 

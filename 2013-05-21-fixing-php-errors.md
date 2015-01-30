@@ -17,13 +17,11 @@ I have developed with PHP for over a decade. During that time I've encountered n
 
 We will parse the following PHP code and resolve the errors. There are three. Four depending on how you define *errors* (more on that later). For now, bonus points if you can find the other *error*.
 
-``` php
-	<?php
-	echo 'Hello Errors!'
-	if ($user->name) {
-		echo 'It's time to stop writting errors ";
-		echo $user->name, '!';
-```
+    <?php
+    echo 'Hello Errors!'
+    if ($user->name) {
+        echo 'It's time to stop writting errors ";
+        echo $user->name, '!';
 
 ## Interpreting PHP errors
 When we run this code, we receive the first error:
@@ -44,13 +42,13 @@ Together these parts provide all the information we need to fix our code.
 
 The error tells us we have a parse error on line 3. Looking at line 3 again:
 
-	if ($user->name) {
-	
+    if ($user->name) {
+    
 Seems correct. What's wrong?
 
 This is where *error type* can help solve the mystery. For parse errors, the error typically occurs on the preceeding line since the parser continues until it reads invalid syntax. Let's look at line 2:
 
-	echo 'Hello Errors!'
+    echo 'Hello Errors!'
 
 Now if you wrote this code, you may not see the error. In which case the error message provides a hint: *expecting ',' or ';'*.
 
@@ -82,20 +80,20 @@ On a side note, there are many arguments between using [single-quotes versus dou
 
 Another parse error. The fact that line 7 does not exist reminds us to look at the preceeding line for parse errors.
 
-	echo $user->name, '!';
-	
+    echo $user->name, '!';
+    
 This line seems fine. Let's keep going up a line until something looks wrong. Now I've written enough PHP to know that this particular error message deals with unterminated syntax. Meaning that the perser was expecting more syntax, but instead reached the end of the file.
 
 Knowing this, I know the error relates to following line:
 
-	if ($user->name) {
-	
+    if ($user->name) {
+    
 We never closed the `if` block. Adding the closing brace, `}`, on line 7 fixes the error.
 
-	if ($user->name) {
-		echo 'It's time to stop writting errors ";
-		echo $user->name, '!';
-	}
+    if ($user->name) {
+        echo 'It's time to stop writting errors ";
+        echo $user->name, '!';
+    }
 
 [Formatting your code](/2012/11/php-coding-standards/ "PHP Coding Standards") goes a long way to prevent these errors. Generally speaking, if you reach the end of a code block at an indentation level you forgot to terminate something. Most IDEs have auto-indentation features. Configure indendation and choose your side in the battle between [tabs and spaces](http://nithinbekal.com/2011/tabs-vs-spaces-for-indentation/).
 
