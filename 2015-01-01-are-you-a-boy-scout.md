@@ -5,7 +5,7 @@ heading: "Are you a Boy Scout?"
 date: 2015-01-01 11:37
 comments: true
 categories:
-  - Rants
+  - Main Thread
 description: 'A look at how the simple practice of "boyscouting" can improve your code.'
 subheading: 'A look at how the simple practice of "boyscouting" can improve your code.'
 excerpt: 'A look at how the simple practice of "boyscouting" can improve your code.'
