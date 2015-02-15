@@ -2,7 +2,7 @@
 layout: post
 title: "Migrating from Octopress to Jekyll"
 heading: "Migrating from Octopress to Jekyll"
-date: 2015-01-01 11:37
+date: 2015-02-15 11:37
 comments: true
 categories:
   - Main Thread
