@@ -6,6 +6,7 @@ comments: true
 categories:
   - Main Thread
 description: "A closer look at the practice of removing comments from code."
+subheading: "A closer look at the practice of removing comments from code."
 excerpt: "A closer look at the practice of removing comments from code."
 ---
 My recent post on [Boyscouting](http://jason.pureconcepts.net/2015/01/are-you-a-boy-scout/) received 15 minutes of fame on the [programming subreddit](http://www.reddit.com/r/programming/). I found most of the discussion focused on code comments. Specifically, that part of boyscouting was *removing* comments.
@@ -57,3 +58,7 @@ Comments can not only be useful, they can also be misleading. I continually come
 The comment says to stop looping, but the code exits. I wasted several minutes debating which to trust. Given the bug, I updated the code to follow the comment and *stop looping*. Regardless, this bug would have been solved without the comment. Combined with the buggy code, it did more harm than good.
 
 That's really what it's about – doing good. Leaving something better than you found it. That's why it's called [Boyscouting](http://jason.pureconcepts.net/2015/01/are-you-a-boy-scout/). If you come across a comment that you can remove, remove it. If you can't remove it, see if you can refactor the code so you can remove the comment. Future developers will thank you. Even if that future developer is you.
+
+***Update:** I recently came across the following passage from [Rob Pike](https://twitter.com/rob_pike) regarding comments which, quite effectively, summarizes this entire post.*
+
+> [comments are] a delicate matter, requiring taste and judgment. I tend to err on the side of eliminating comments, for several reasons. First, if the code is clear, and uses good type names and variable names, it should explain itself. Second, comments aren’t checked by the compiler, so there is no guarantee they’re right, especially after the code is modified. A misleading comment can be very confusion. Third, the issue of typography: comments clutter code.
