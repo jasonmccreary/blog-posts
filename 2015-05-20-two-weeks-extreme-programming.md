@@ -4,7 +4,7 @@ title: "Two Weeks of Extreme Programming"
 date: 2015-05-20 19:37
 comments: true
 categories:
-  - Rants
+  - Main Thread
 description: "Some initial thoughts after two weeks on a new team practicing extreme programming."
 subheading: "Some initial thoughts after two weeks on a new team practicing extreme programming."
 excerpt: "Some initial thoughts after two weeks on a new team practicing extreme programming."
