@@ -5,9 +5,9 @@ date: 2015-04-12 17:58
 comments: true
 categories: 
   - Rants
-excerpt: "A rant for simplier, clearer communication."
-subheading: "A rant for simplier, clearer communication."
-description: "A rant for simplier, clearer communication."
+excerpt: "A rant for simpler, clearer communication."
+subheading: "A rant for simpler, clearer communication."
+description: "A rant for simpler, clearer communication."
 ---
 I first wrote this post a year ago. Although I support my original message, its delivery failed. I recently identified another statement which may relay the message more easily.
 
