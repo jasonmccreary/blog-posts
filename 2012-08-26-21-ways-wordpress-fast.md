@@ -197,7 +197,7 @@ Go forth and make WordPress fast…
  [1]: http://www.slideshare.net/mccreaja/21-ways-to-make-wordpress "Slides on SlideShare"
  [2]: http://wordpress.tv/2012/10/04/jason-mccreary-21-ways-to-make-wordpress-fast/
  [3]: http://validator.w3.org
- [4]: http://www.bluerobot.com/web/css/fouc.asp/
+ [4]: https://stevesouders.com/hpws/css-fouc.php
  [5]: http://css-tricks.com/css-sprites/
  [6]: http://www.smushit.com/ysmush.it/
  [7]: http://httpd.apache.org/docs/2.2/mod/mod_deflate.html
