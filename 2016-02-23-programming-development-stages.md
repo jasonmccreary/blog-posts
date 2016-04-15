@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Programmer - Stages of Development"
-date: 2015-11-22 19:37
+date: 2016-02-23 19:37
 comments: true
 categories:
-  - Main Thread
+  - Rants
 description: "A rant on the different stages a programmer reaches during their development."
 subheading: "A rant on the different stages a programmer reaches during their development."
 excerpt: "A rant on the different stages a programmer reaches during their development."
