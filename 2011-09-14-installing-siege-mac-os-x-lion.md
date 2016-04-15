@@ -24,23 +24,27 @@ To step back, [siege][1] is an http load testing and benchmarking utility. Latel
 ## Installing siege
 
 1.  Open the Terminal app
-2.  Download the latest version of siege (currently 2.70) 
-        curl -C - -O http://www.joedog.org/pub/siege/siege-latest.tar.gz
+2.  Download the latest version of siege (currently 2.70)
 
-3.  Extract the tarball 
+        curl -C - -O http://download.joedog.org/siege/siege-latest.tar.gz
+
+3.  Extract the tarball
+
         tar -xvf siege-latest.tar.gz
 
-4.  Change directories to the extracted directory (again, currently siege-2.70) 
+4.  Change directories to the extracted directory (again, currently siege-2.70)
+
         cd siege-2.70/
 
-5.  Run the following commands (one at a time) to build and install `siege`. If you have an older version of siege read the INSTALL file for more instructions. 
+5.  Run the following commands (one at a time) to build and install `siege`. If you have an older version of siege read the INSTALL file for more instructions.
+
         ./configure
         make
         make install
 
 This installed `siege` to `/usr/local/bin/`. This should already be in your `PATH`, so type:
 
-    siege 
+    siege
 
 You may be presented with a message that instructs you to generate a siege configuration file. If so, follow the on screen instructions.
 
@@ -48,10 +52,10 @@ You may be presented with a message that instructs you to generate a siege confi
 
 The following sends a 10 requests across 10 concurrent connections for benchmarking (no delay between requests).
 
-    siege -c 10 -r 10 -b http://jason.pureconcepts.net/ 
+    siege -c 10 -r 10 -b http://jason.pureconcepts.net/
 
 If you want to learn more about configuring or using siege type `siege -h` or visit the [siege manual][3].
 
- [1]: http://www.joedog.org/index/siege-home
+ [1]: http://www.joedog.org/siege-home
  [2]: http://jason.pureconcepts.net/2009/12/good_developer_routines/ "Routines of a good developer"
- [3]: http://www.joedog.org/index/siege-manual
+ [3]: http://www.joedog.org/siege-manual
