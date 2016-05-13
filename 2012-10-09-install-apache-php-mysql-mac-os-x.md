@@ -79,7 +79,7 @@ I also run `mysql_secure_installation`. While this isn&rsquo;t necessary, it&rsq
 ### Connect PHP and MySQL
 You need to ensure PHP and MySQL can communicate with one another. There are [several options][3] to do so. I do the following:
 
-    cd /var 
+    cd /var
     mkdir mysql
     cd mysql
     ln -s /tmp/mysql.sock mysql.sock
@@ -107,20 +107,20 @@ Here is an example of *VirtualHosts* I&rsquo;ve created.
     <VirtualHost *:80>
         DocumentRoot "/Library/WebServer/Documents"
     </VirtualHost>
-    
+
     <VirtualHost *:80>
             DocumentRoot "/Users/Jason/Documents/workspace/dev"
             ServerName jason.local
             ErrorLog "/private/var/log/apache2/jason.local-error_log"
             CustomLog "/private/var/log/apache2/jason.local-access_log" common
-    
+
             <Directory "/Users/Jason/Documents/workspace/dev">
                     AllowOverride All
                     Order allow,deny
                     Allow from all
             </Directory>
     </VirtualHost>
-    
+
 
 The first `VirtualHost` points to `/Library/WebServer/Documents`. The first `VirtualHost` is important as it behaves like the default Apache configuration and used when no others match.
 
@@ -144,17 +144,17 @@ I run the following to clear the local DNS cache:
 
     dscacheutil -flushcache
 
-Now you can access <http://jason.local>. 
+Now you can access <http://jason.local>.
 
 **Note:** You will need to create a new `VirtualHost` and edit your **hosts** file each time you make a new local site.
 
 ### A note about permissions
 You may receive *403 Forbidden* when you visit your local site. This is likely a permissions issue. Simply put, the Apache user (`_www`) needs to have access to read, and sometimes write, your web directory.
 
-If you are not familiar with permissions, [read more](http://www.library.yale.edu/wsg/docs/permissions/). For now though, the easiest thing to do is ensure your web directory has permissions of `755`. You can change permissions with the command:
+If you are not familiar with permissions, [read more](https://www.ics.uci.edu/computing/linux/file-security.php). For now though, the easiest thing to do is ensure your web directory has permissions of `755`. You can change permissions with the command:
 
     chmod 755 some_directory/
-    
+
 In my case, all my files were under my local `~/Documents` directory. Which by default is only readable by me. So I had to change permissions for my web directory all the way up to `~/Documents` to resolve the *403 Forbidden* issue.
 
 **Note**: There are many ways to solve permission issues. I have provided this as the *easiest* solution, not the *best*.

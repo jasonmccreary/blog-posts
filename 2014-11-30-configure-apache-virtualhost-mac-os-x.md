@@ -79,7 +79,7 @@ Add the following configuration:
             ServerName jason.pureconcepts.local
             ErrorLog "/private/var/log/apache2/jason.pureconcepts.local-error_log"
             CustomLog "/private/var/log/apache2/jason.pureconcepts.local-access_log" common
-    
+
             <Directory "/Users/Jason/Documents/workspace/jason.pureconcepts.net/htdocs">
                 AllowOverride All
                 Require all granted
@@ -120,10 +120,10 @@ Now you can access your site using the .local extension. For example, *http://ja
 ## A note about permissions
 You may receive *403 Forbidden* when you visit your local site. This is likely a permissions issue. Simply put, the Apache user (`_www`) needs to have access to read, and sometimes write, to your web directory.
 
-If you are not familiar with permissions, [read more](http://www.library.yale.edu/wsg/docs/permissions/). For now though, the easiest thing to do is ensure your web directory has permissions of `755`. You can change permissions with the command:
+If you are not familiar with permissions, [read more](https://www.ics.uci.edu/computing/linux/file-security.php). For now though, the easiest thing to do is ensure your web directory has permissions of `755`. You can change permissions with the command:
 
     chmod 755 some/web/directory/
-    
+
 In my case, all my files were under my local `~/Documents` directory. Which by default is only readable by me. So I had to change permissions from my web directory all the way up to `~/Documents` to resolve the *403 Forbidden* issue.
 
 **Note**: There are many ways to solve permission issues. I have provided this as the *easiest* solution, not the *best*.
