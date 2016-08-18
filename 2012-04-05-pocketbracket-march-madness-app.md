@@ -16,7 +16,7 @@ description: A look back on 4 years of developing, managing, and marketing Pocke
 ---
 Four years ago I developed [PocketBracket – a March Madness app][1] for creating unlimited brackets, organizing pools, and following the games during the tournament. It was born from a desire to create an app for, at the time, the new iPhone and my love of college basketball. PocketBracket was the first application of its kind in the App Store. It has since become the oldest and most successful of my apps.
 
-<img alt="Screenshot of PocketBracket on iOS, Android, and Windows Phone" src="https://s3.amazonaws.com/pocketbracket/images/scn_app_on_devices.png" title="PocketBracket on iOS, Android, and Windows Phone" class="aligncenter" width="367" height="488" />
+<img alt="Screenshot of PocketBracket on iOS, Android, and Windows Phone" src="https://s3.amazonaws.com/pocketbracket/images/scn_app_on_devices.png" title="PocketBracket on iOS, Android, and Windows Phone" width="367" height="488" />
 
 ## Building a Brand – *PocketBracket*
 
