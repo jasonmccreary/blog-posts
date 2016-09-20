@@ -17,12 +17,14 @@ description: "This post is for those who followed installing Apache, PHP, and My
 ---
 ***Note:** This post assumes you followed [installing Apache, PHP, and MySQL on Mac OS X Yosemite](/2014/11/install-apache-php-mysql-mac-os-x-yosemite/) and have since upgraded to Mac OS X El Capitan. If you did not follow the original post, you should follow [installing Apache, PHP, and MySQL on Mac OS X El Capitan](/2015/10/install-apache-php-mysql-mac-os-x-el-capitan/).*
 
+***PHP Update:** Mac OS X El Capitan comes pre-installed with PHP version 5.5 which has reached its [end of life](http://php.net/supported-versions.php). After you complete this post, you should [upgrade PHP on Mac OS X](/2016/09/upgrade-php-mac-os-x/).*
+
 When Mac OS X upgrades it overwrites previous configuration files. However, before doing so it will make backups. The backup files often have a suffix of `previous` or `pre-update`. Most of the time, configuring your system after updating Mac OS X is simply a matter of comparing the new and old configurations.
 
 This post will look at the differences in Apache, PHP, and MySQL between Mac OS X Yosemite and Mac OS X El Capitan.
 
 ## Updating Apache
-Mac OS X Yosemite and Mac OS X El Capitan both come with Apache 2.4 preinstalled. As noted above, your Apache configuration file is overwritten me when you upgrade to Mac OS X El Capitan. 
+Mac OS X Yosemite and Mac OS X El Capitan both come with Apache 2.4 preinstalled. As noted above, your Apache configuration file is overwritten me when you upgrade to Mac OS X El Capitan.
 
 Comparing the configuration files show no differences other than the changes made in the original post. As such, you can simply overwrite El Capitan's configuration file with the original by running the following command:
 

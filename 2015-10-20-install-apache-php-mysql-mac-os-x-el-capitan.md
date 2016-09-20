@@ -18,6 +18,8 @@ subheading: "This is an update for Mac OS X El Capitan of a previous post on ins
 ---
 ***Note:** This post is an update of my post on [installing Apache, PHP, and MySQL on Mac OS X Yosemite](/2014/11/install-apache-php-mysql-mac-os-x-yosemite/) for Mac OS X El Capitan. This post is for a new installations. If you have installed Apache, PHP, and MySQL for Mac OS X Yosemite, read my post on [Updating Apache, PHP, and MySQL for Mac OS X El Capitan](/2015/10/update-apache-php-mysql-mac-os-x-el-capitan/).*
 
+***PHP Update:** Mac OS X El Capitan comes pre-installed with PHP version 5.5 which has reached its [end of life](http://php.net/supported-versions.php). After you complete this post, you should [upgrade PHP on Mac OS X](/2016/09/upgrade-php-mac-os-x/).*
+
 Mac OS X runs atop UNIX. So most UNIX software installs easily on Mac OS X. Furthermore, Apache and PHP come packaged with OS X. To create a local web server, all you need to do is configure Apache and *install* MySQL.
 
 I am aware of the web server software available for Mac OS X, notably [MAMP][1]. These get you started quickly. But they forego the learning experience and, as most developers report, can become difficult to manage.

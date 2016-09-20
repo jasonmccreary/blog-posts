@@ -18,6 +18,8 @@ subheading: "This is an update for Mac OS X Yosemite of a previous post on insta
 ---
 ***OS X El Capitan Update:** While these instructions still work, I wrote a new post for [installing Apache, PHP, and MySQL on Mac OS X El Capitan](/2015/10/install-apache-php-mysql-mac-os-x-el-capitan/).*
 
+***PHP Update:** Mac OS X Yosemite comes pre-installed with PHP version 5.5 which has reached its [end of life](http://php.net/supported-versions.php). After you complete this post, you should [upgrade PHP on Mac OS X](/2016/09/upgrade-php-mac-os-x/).*
+
 I recently upgraded to Mac OS X Yosemite. It seems OS X Yosemite makes my original post on [installing Apache, PHP, and MySQL on Mac OS X](/2012/10/install-apache-php-mysql-mac-os-x/) obsolete. Specifically, Yosemite includes Apache 2.4. This post is a complete update for installing Apache, PHP, and MySQL on Mac OS X Yosemite.
 
 A reminder that Mac OS X runs atop UNIX. So most UNIX software installs easily on Mac OS X. Furthermore, Apache and PHP come packaged with OS X. To create a local web server, all you need to do is enable them and *install* MySQL.
