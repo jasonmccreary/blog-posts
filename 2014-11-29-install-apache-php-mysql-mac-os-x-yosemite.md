@@ -94,7 +94,7 @@ You need to ensure PHP and MySQL can communicate with one another. There are [se
 ## Additional Configuration (optional)
 The default configuration for Apache 2.4 on OS X Yosemite seemed pretty lean. For example, common modules like `mod_rewrite` were disabled. You may consider enabling this now to avoid forgetting they are disabled in the future.
 
-I edited my Apache Configration:
+I edited my Apache Configuration:
 
     vi /etc/apache2/httpd.conf
 

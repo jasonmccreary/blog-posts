@@ -24,7 +24,7 @@ When Mac OS X upgrades it overwrites previous configuration files. However, befo
 This post will look at the differences in Apache, PHP, and MySQL between Mac OS X Yosemite and Mac OS X El Capitan.
 
 ## Updating Apache
-Mac OS X Yosemite and Mac OS X El Capitan both come with Apache 2.4 preinstalled. As noted above, your Apache configuration file is overwritten me when you upgrade to Mac OS X El Capitan.
+Mac OS X Yosemite and Mac OS X El Capitan both come with Apache 2.4 pre-installed. As noted above, your Apache configuration file is overwritten me when you upgrade to Mac OS X El Capitan.
 
 Comparing the configuration files show no differences other than the changes made in the original post. As such, you can simply overwrite El Capitan's configuration file with the original by running the following command:
 
@@ -37,16 +37,13 @@ Also, if you changed the core PHP INI file it will have been overwritten when up
 
     diff /etc/php.ini.default /etc/php.ini.default.pre-update
 
-**Note:** You may need to change `/etc/php.ini.default.pre-update`. You can see which PHP core files exist by running `ls /etc/php.ini*`.
+**Note:** Your file may note be named `/etc/php.ini.default.pre-update`. You can see which PHP core files exist by running `ls /etc/php.ini*`.
 
 I would encourage you not to change the PHP INI file directly. Instead, you should overwrite PHP configurations in a custom PHP INI file. This will prevent Mac OS X upgrades from overwriting your PHP configuration in the future. To determine the right path to add your custom PHP INI, run the following command:
 
     php -i | grep additional
 
 ## Updating MySQL
-MySQL is not preinstalled with Mac OS X. It is something you downloaded when following the original post. As such, the upgrade should not have changed your MySQL configuration.
+MySQL is not pre-installed with Mac OS X. It is something you downloaded when following the original post. As such, the upgrade should not have changed your MySQL configuration.
 
 MySQL has had a few minor version updates since my original post. If you wish to upgrade MySQL you may do so by following the instructions in [this post](http://coolestguidesontheplanet.com/upgrade-mysql-database-5-5-5-6-osx-10-8-mountan-lion/)
-
-
-

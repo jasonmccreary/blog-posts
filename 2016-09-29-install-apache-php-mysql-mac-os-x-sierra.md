@@ -1,9 +1,9 @@
 ---
-title: "Installing Apache, PHP, and MySQL on Mac OS X El Capitan"
-heading: "Installing Apache, PHP, and MySQL on Mac OS X El Capitan"
+title: "Installing Apache, PHP, and MySQL on Mac OS X Sierra"
+heading: "Installing Apache, PHP, and MySQL on Mac OS X Sierra"
 author: Jason McCreary
-excerpt: "This is an update for Mac OS X El Capitan of a previous post on installing Apache, PHP, and MySQL for Mac OS X."
-subheading: "This is an update for Mac OS X El Capitan of a previous post on installing Apache, PHP, and MySQL for Mac OS X."
+excerpt: "This is an update for Mac OS X Sierra of a previous post on installing Apache, PHP, and MySQL for Mac OS X."
+subheading: "This is an update for Mac OS X Sierra of a previous post on installing Apache, PHP, and MySQL for Mac OS X."
 layout: post
 comments: true
 categories:
@@ -13,14 +13,12 @@ tags:
   - development
   - mysql
   - php
-description: "This is an update for Mac OS X El Capitan of a previous post on installing Apache, PHP, and MySQL for Mac OS X."
-subheading: "This is an update for Mac OS X El Capitan of a previous post on installing Apache, PHP, and MySQL for Mac OS X."
+description: "This is an update for Mac OS X Sierra of a previous post on installing Apache, PHP, and MySQL for Mac OS X."
+subheading: "This is an update for Mac OS X Sierra of a previous post on installing Apache, PHP, and MySQL for Mac OS X."
 ---
-***Note:** This post is an update of my post on [installing Apache, PHP, and MySQL on Mac OS X Yosemite](/2014/11/install-apache-php-mysql-mac-os-x-yosemite/) for Mac OS X El Capitan. This post is for a new installations. If you have installed Apache, PHP, and MySQL for Mac OS X Yosemite, read my post on [Updating Apache, PHP, and MySQL for Mac OS X El Capitan](/2015/10/update-apache-php-mysql-mac-os-x-el-capitan/).*
+***Note:** This post is an update of my post on [installing Apache, PHP, and MySQL on Mac OS X El Capitan](/2015/10/install-apache-php-mysql-mac-os-x-el-capitan/) for Mac OS X Sierra. This post is for a new installations. If you have installed Apache, PHP, and MySQL for Mac OS El Capitan, read my post on [Updating Apache, PHP, and MySQL for Mac OS X Sierra](/2016/09/update-apache-php-mysql-mac-os-x-sierra/).*
 
-***PHP Update:** Mac OS X El Capitan comes pre-installed with PHP version 5.5 which has reached its [end of life](http://php.net/supported-versions.php). After you complete this post, you should [upgrade PHP on Mac OS X](/2016/09/upgrade-php-mac-os-x/).*
-
-***OS X Sierra Update:** While these instructions still work, I wrote a new post for [installing Apache, PHP, and MySQL on Mac OS X Sierra](/2016/09/install-apache-php-mysql-mac-os-x-sierra/).*
+***PHP Update:** Mac OS X Sierra comes pre-installed with PHP version 5.6, however the latest version of PHP is 7.1. After you complete this post, you should [upgrade PHP on Mac OS X](/2016/09/upgrade-php-mac-os-x/).*
 
 Mac OS X runs atop UNIX. So most UNIX software installs easily on Mac OS X. Furthermore, Apache and PHP come packaged with OS X. To create a local web server, all you need to do is configure Apache and *install* MySQL.
 
@@ -42,7 +40,7 @@ Verify *It works!* by accessing <http://localhost>
 First, make a backup of the default Apache configuration. This is good practice and serves as a comparison against future versions of Mac OS X.
 
     cd /etc/apache2/
-    cp httpd.conf httpd.conf.bak
+    cp httpd.conf httpd.conf.sierra
 
 Now edit the Apache configuration. Feel free to use *TextEdit* if you are not familiar with *vi*.
 
@@ -58,7 +56,7 @@ Restart Apache:
 
 You can verify PHP is enabled by creating a [`phpinfo()`](http://php.net/manual/en/function.phpinfo.php) page in your `DocumentRoot`.
 
-The default `DocumentRoot` for Mac OS X El Capitan is `/Library/WebServer/Documents`. You can verify this from your Apache configuration.
+The default `DocumentRoot` for Mac OS X Sierra is `/Library/WebServer/Documents`. You can verify this from your Apache configuration.
 
     grep DocumentRoot httpd.conf
 
@@ -68,7 +66,7 @@ Now create the `phpinfo()` page in your `DocumentRoot`:
 
 Verify PHP by accessing <http://localhost/phpinfo.php>
 
-## Install MySQL on Mac OS X El Capitan
+## Install MySQL on Mac OS X Sierra
 
 [Download][2] and install the latest MySQL generally available release DMG for Mac OS X.
 
