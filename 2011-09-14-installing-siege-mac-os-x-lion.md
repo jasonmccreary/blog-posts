@@ -19,7 +19,7 @@ I am not much of a sysadmin. So the process of building from source (`configure`
 
 One result looked promising. I attempted to run *Step 1* on the command line. Error. If *Step 1* fails, move on.
 
-To step back, [siege][1] is an http load testing and benchmarking utility. Lately I&rsquo;ve taken a strong interest in benchmarking my web applications. Mainly because I am developing APIs and using WordPress (which is notorious for being slow under server load). Although `ab` (Apache Benchmark) comes bundled with `apache` (which is preinstalled on Mac OS X), I&rsquo;ve been hearing a lot about `siege` at conferences. As any [good developer][2] should, I wanted to tinker with it myself.
+To step back, [siege][1] is an http load testing and benchmarking utility. Lately I&rsquo;ve taken a strong interest in benchmarking my web applications. Mainly because I am developing APIs and using WordPress (which is notorious for being slow under server load). Although `ab` (Apache Benchmark) comes bundled with `apache` (which is pre-installed on Mac OS X), I&rsquo;ve been hearing a lot about `siege` at conferences. As any [good developer][2] should, I wanted to tinker with it myself.
 
 ## Installing siege
 

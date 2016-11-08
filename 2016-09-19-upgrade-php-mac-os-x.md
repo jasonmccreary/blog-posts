@@ -9,9 +9,9 @@ description: 'How to upgrade or install a different version of PHP on Mac OS X.'
 subheading: 'How to upgrade or install a different version of PHP on Mac OS X.'
 excerpt: 'How to upgrade or install a different version of PHP on Mac OS X.'
 ---
-As noted in my posts on [Installing Apache, PHP and MySQL on Mac OS X](/2015/10/install-apache-php-mysql-mac-os-x-el-capitan/), OS X comes pre-installed with Apache and PHP. Unfortunately, as of Mac OS X 10.11 (*El Capitan*) the pre-installed version of PHP is still 5.5.
+As noted in my posts on *installing Apache, PHP and MySQL on Mac OS X*, Mac OS X comes pre-installed with Apache and PHP. Unfortunately, as of Mac OS X 10.11 (*El Capitan*) the pre-installed version of PHP is still 5.5.
 
-As PHP 5.5 has reached [end of life](http://php.net/supported-versions.php), I imagine the pre-installed version of PHP will be updated with Mac OS 10.12 (*Sierra*). However, it may only be PHP 5.6.
+As PHP 5.5 has reached [end of life](http://php.net/supported-versions.php), the pre-installed version of PHP in Mac OS 10.12 (*Sierra*) is still only PHP 5.6.
 
 So what do you do if you want to upgrade or install a different PHP version on your Mac? Well, you could use [Homebrew](http://brew.sh). But I found a pre-packaged alternative - [PHP OSX](http://php-osx.liip.ch/).
 
