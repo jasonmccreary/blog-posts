@@ -9,6 +9,8 @@ description: 'The pre-announcement of my new video series "Getting Git" - a comp
 subheading: 'A pre-announcement of a comprehensive video series on the journey from <i>git init</i> to Git master.'
 excerpt: 'The pre-announcement of my new video series "Getting Git" - a comprehensive guide from git init to Git master.'
 ---
+_**Update:** The [Getting Git](https://gettinggit.com) video series is now available for early access._
+
 Over the last 5 years I've helped companies migrate from SVN to Git, trained teams on using Git, and spoken at conferences about Git. The one thing I see each time is developers feel empowered once they learn Git.
 
 The issue is that at first I didn't *really* learn Git. I just memorized a handful of commands, like `git add` and `git commit`. Or, worse yet, I used an [evil wizard](https://pragprog.com/the-pragmatic-programmer/extracts/wizards) to manage Git for me.
@@ -22,5 +24,3 @@ Either way, I decided to turn my talks and training materials into a video serie
 The format is simple - **No evil wizards**. We will learn Git from the **command line**. Each command will be covered in two videos: the basic usage followed by more advanced usages.
 
 My goal is to release the introductory videos in the next few weeks, with an *early access* by end of year.
-
-***Update:** The [Getting Git](https://gettinggit.com) website is now available. Head there for the latest updates.*
