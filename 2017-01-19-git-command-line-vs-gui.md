@@ -4,7 +4,7 @@ title: "Git - Command line vs GUIs"
 date: 2017-01-10 19:37
 comments: true
 categories:
-  - Main Thread
+  - Git
 description: 'A case for using Git from the command line instead of GUIs.'
 subheading: 'A case for using Git from the command line instead of GUIs.'
 excerpt: 'A case for using Git from the command line instead of GUIs.'

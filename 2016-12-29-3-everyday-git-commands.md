@@ -4,7 +4,7 @@ title: "3 Git Commands I use every day"
 date: 2016-11-30 12:37
 comments: true
 categories:
-  - Main Thread
+  - Git
 description: 'Some insight into three of the Git commands I use every day.'
 subheading: 'Some insight into three of the Git commands I use every day.'
 excerpt: 'Some insight into three of the Git commands I use every day.'

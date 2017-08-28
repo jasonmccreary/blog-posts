@@ -4,7 +4,7 @@ title: "When to make a Git commit"
 date: 2017-01-10 19:37
 comments: true
 categories:
-  - Main Thread
+  - Git
 description: '2 rules I follow for when to make commits.'
 subheading: '2 rules I follow for when to make commits.'
 excerpt: '2 rules I follow for when to make commits.'

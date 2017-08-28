@@ -4,7 +4,7 @@ title: 'A closer look at git rebase'
 date: 2017-02-14 19:37
 comments: true
 categories:
-  - Main Thread
+  - Git
 description: "For some, git rebase falls on the magic end of the spectrum for Git commands. In this post, we'll take a closer look at git rebase."
 subheading: "For some, git rebase falls on the magic end of the spectrum for Git commands. In this post, we'll take a closer look at git rebase."
 excerpt: "For some, git rebase falls on the magic end of the spectrum for Git commands. In this post, we'll take a closer look at git rebase."

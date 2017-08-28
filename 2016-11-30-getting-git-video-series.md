@@ -4,7 +4,7 @@ title: "Getting Git - A Video Series"
 date: 2016-11-30 12:37
 comments: true
 categories:
-  - Main Thread
+  - Git
 description: 'The pre-announcement of my new video series "Getting Git" - a comprehensive guide from git init to Git master.'
 subheading: 'A pre-announcement of a comprehensive video series on the journey from <i>git init</i> to Git master.'
 excerpt: 'The pre-announcement of my new video series "Getting Git" - a comprehensive guide from git init to Git master.'
