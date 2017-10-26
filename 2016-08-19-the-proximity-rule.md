@@ -9,7 +9,7 @@ description: 'A recent coding style I call the "Proximity Rule". Might be called
 subheading: 'A recent coding style I call the "Proximity Rule". Might be called something else, but I still like the code.'
 excerpt: 'A recent coding style I call the "Proximity Rule". Might be called something else, but I still like the code.'
 ---
-I noticed a recurring style in my code lately. Actually, my pair noticed and asked me about it. I call it the "Proximity Rule". I wanted to call it the "Proximity Principle", but the initialism made my inner-child chuckle.
+I noticed a recurring style in my code lately. Actually, my pair noticed and asked me about it. I call it the *Proximity Rule*. I thought about calling it the *Proximity Principle*, but the initialism made my inner-child chuckle.
 
 I feel it's easier to explain with code samples. Consider the following function which filters items in an array using a callback.
 
@@ -29,7 +29,7 @@ function array_filter(array, callback) {
 }
 ```
 
-This code has a simple, traditional style. It groups similar statements together into blocks of code separated by whitespace. Each group tells a story - initialize, execute, respond.
+This code has a simple, traditional style. It groups similar statements together into blocks of code separated by whitespace. Each group tells a *story* - initialize, execute, respond.
 
 However, this story is a bit robotic. Fine for the computer, but humans need to read this story too. Let's look at the same code after applying the *Proximity Rule*.
 
