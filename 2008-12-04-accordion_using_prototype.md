@@ -18,10 +18,10 @@ In my search for an accordion solution I came across two of mention. The first w
 
 ## The Merge
 
-In this case, I felt there were pieces of both solutions that were good. I decided to merge the two, and use Brian Crescimanno&rsquo;s as a base. If you want more detail on the individual solutions, I suggest reviewing the articles above. As such, I have provided an outline of the changes:
+In this case, I felt there were pieces of both solutions that were good. I decided to merge the two, and use Brian Crescimanno's as a base. If you want more detail on the individual solutions, I suggest reviewing the articles above. As such, I have provided an outline of the changes:
 
-*   Updated stickman&rsquo;s horizontal functionality to Prototype 1.6.
-*   Made more *prototype-ish*. Code wasn&rsquo;t taking full advantage of Prototype.
+*   Updated stickman's horizontal functionality to Prototype 1.6.
+*   Made more *prototype-ish*. Code wasn't taking full advantage of Prototype.
 *   Refactored methods by grouping similar actions (e.g. toggle/clickHandler)
 *   Removed modification of `display` styles, used `height`/`width` consistently.
 *   Converted `initialize` parameter into an options hash.

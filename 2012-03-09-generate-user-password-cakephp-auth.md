@@ -15,9 +15,9 @@ tags:
 description: "A script that hashes password for existing user records when using CakePHP Auth."
 subheading: "A script that hashes password for existing user records when using CakePHP Auth."
 ---
-The other day I imported some existing user accounts into my CakePHP project. The project was using [CakePHP&rsquo;s Auth Component][1]. By default, CakePHP Auth uses its own hashing to encrypt the password. So I needed to hash the password for the existing user accounts.
+The other day I imported some existing user accounts into my CakePHP project. The project was using [CakePHP's Auth Component][1]. By default, CakePHP Auth uses its own hashing to encrypt the password. So I needed to hash the password for the existing user accounts.
 
-I vaguely remembered a script in the CakePHP Book, but couldn&rsquo;t find it. I figured I could have searched for one or write one. In typical developer fashion, I chose the latter.
+I vaguely remembered a script in the CakePHP Book, but couldn't find it. I figured I could have searched for one or write one. In typical developer fashion, I chose the latter.
 
     public function generate_passwords() {
         // get the users that need their password hashed

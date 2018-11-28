@@ -11,7 +11,7 @@ categories:
   - Rants
 description: Simple elevator etiquette to follow and avoid those annoying and awkward mishaps.
 ---
-It&rsquo;s the end of a long Monday, Christmas is at the end of the week. I&rsquo;m ready to go home. I get on the elevator heading down.
+It's the end of a long Monday, Christmas is at the end of the week. I'm ready to go home. I get on the elevator heading down.
 
 It stops. A woman boards. Doors close.
 
@@ -27,11 +27,11 @@ The man motions me. I motion for him to go. He motions me to go. I start to exit
 
 I exit the elevator and want to scream.
 
-Elevators are part of everyday life. They can be annoying by nature: over-crowded, slow, unpredictable. They&rsquo;re also perfect for social experiments. Ever select the wrong floor or face anywhere but the door? Even with such oddities aside, elevators still become annoying from common behaviors. Consider my experience. We've all been in a similar situation. So, I established an **elevator etiquette** of one rule, one exception, and one guideline.
+Elevators are part of everyday life. They can be annoying by nature: over-crowded, slow, unpredictable. They're also perfect for social experiments. Ever select the wrong floor or face anywhere but the door? Even with such oddities aside, elevators still become annoying from common behaviors. Consider my experience. We've all been in a similar situation. So, I established an **elevator etiquette** of one rule, one exception, and one guideline.
 
 ## The Rule: Exit in order
 
-Your only focus on the elevator is to exit. If the elevator is crowded, exit in order. Don&rsquo;t stand in the front and hold the door for everyone else behind you. It&rsquo;s nice, but unnecessary. Herd mentality kicks in and people freeze. Therefore, it&rsquo;s inefficient and, considering the size of elevators, you are just in the way.
+Your only focus on the elevator is to exit. If the elevator is crowded, exit in order. Don't stand in the front and hold the door for everyone else behind you. It's nice, but unnecessary. Herd mentality kicks in and people freeze. Therefore, it's inefficient and, considering the size of elevators, you are just in the way.
 
 ## The Exception: Solo males should be gentleman
 
@@ -45,25 +45,25 @@ Much like the gentleman, it is polite to let someone else exit before you. If yo
 
 ### Scenario 1
 
-*You&rsquo;re a male in the front of the elevator with 2 females and 3 males.*
+*You're a male in the front of the elevator with 2 females and 3 males.*
 
-**The Rule: Exit in order.** Other males are on board, so you&rsquo;re absolved of your gentleman responsibilities. As you are in the front, being polite would lead to confusion.
+**The Rule: Exit in order.** Other males are on board, so you're absolved of your gentleman responsibilities. As you are in the front, being polite would lead to confusion.
 
 ### Scenario 2
 
-*You&rsquo;re a male in the middle of the elevator with 3 females.*
+*You're a male in the middle of the elevator with 3 females.*
 
 **The Exception: Solo males should be gentleman.** You go last.
 
 ### Scenario 3
 
-*You&rsquo;re in the middle of the elevator, 4 people of the same sex.*
+*You're in the middle of the elevator, 4 people of the same sex.*
 
-**The Rule: Exit in order.** You&rsquo;re all equal, no need to be polite. In fact, don&rsquo;t even make eye contact.
+**The Rule: Exit in order.** You're all equal, no need to be polite. In fact, don't even make eye contact.
 
 ### Scenario 4
 
-*It&rsquo;s not your turn to exit the elevator, but someone motions you.*
+*It's not your turn to exit the elevator, but someone motions you.*
 
 **The Guideline: Be polite, but not *too* polite.** You exit. This person now bears the elevators polite responsibilities. 
 

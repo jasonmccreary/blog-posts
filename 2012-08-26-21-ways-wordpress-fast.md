@@ -11,7 +11,7 @@ categories:
   - Talks
 description: WordPress is slow. We know. It's on you to make WordPress fast. This post offers 21 ways to make your site and WordPress faster.
 ---
-This post is from my talk at WordCamp Chicago and WordCamp Louisville – *21 Ways to Make WordPress Fast*. Slides are on [SlideShare][1]. Video from WordCamp Chicago has been posted on [WordPress.tv][2]. WordPress is slow. As WordPress powers over 55 million sites, it is literally slowing down the web. I&rsquo;m offering 21 ways to make your WordPress site faster. Implementing any will improve your site performance, thus doing your part in speeding up the web.
+This post is from my talk at WordCamp Chicago and WordCamp Louisville – *21 Ways to Make WordPress Fast*. Slides are on [SlideShare][1]. Video from WordCamp Chicago has been posted on [WordPress.tv][2]. WordPress is slow. As WordPress powers over 55 million sites, it is literally slowing down the web. I'm offering 21 ways to make your WordPress site faster. Implementing any will improve your site performance, thus doing your part in speeding up the web.
 
 ## What do you mean *fast*?
 
@@ -23,11 +23,11 @@ WordPress itself is pretty *heavy*. On each request, thousands of lines of code 
 
 ### Valid Code
 
-Invalid code requires the browser to make assumptions about your page. While ultimately this could result in incorrect rendering, it also slows down rendering. Furthermore, invalid code can lead to front-end development headaches. It&rsquo;s simple to validate your code using the [W3C Online Validator][3]. Do it.
+Invalid code requires the browser to make assumptions about your page. While ultimately this could result in incorrect rendering, it also slows down rendering. Furthermore, invalid code can lead to front-end development headaches. It's simple to validate your code using the [W3C Online Validator][3]. Do it.
 
 ### Permalink Settings
 
-WordPress offers Permalinks to customize your site&rsquo;s URLs structure. Internally WordPress uses this structure to process your request. Some structures can make this job difficult – decreasing performance. Generally speaking, the more WordPress can match against your structure the better. 
+WordPress offers Permalinks to customize your site's URLs structure. Internally WordPress uses this structure to process your request. Some structures can make this job difficult – decreasing performance. Generally speaking, the more WordPress can match against your structure the better. 
 
 Quick tests showed barely a 1% decrease in a permalink structure of  
 `/%postname%/` vs. `/%year%/%monthnum%/%postname%/`. This may be a greater concern in previous versions of WordPress. In the end, consider search engine optimization over performance.
@@ -68,7 +68,7 @@ In addition, using a separate domain for *static* content (images, CSS, etc) wil
 
 ### Sharing Widgets
 
-Sharing Widgets often include their own JavaScript and CSS within an iFrame. Likely loading resources from an external domain. All of which go against. Understand how the sharing widget works so you can implement it in a way that doesn&rsquo;t slow down your page.
+Sharing Widgets often include their own JavaScript and CSS within an iFrame. Likely loading resources from an external domain. All of which go against. Understand how the sharing widget works so you can implement it in a way that doesn't slow down your page.
 
 ### Comments and Gravatar
 
@@ -80,7 +80,7 @@ If Gravatar is enabled, the most waste comes from commenters without a Gravatar.
 
 Using [CSS Image Sprites][5] help decrease the number of image requests your page makes. Since most pages contain many images, this can greatly reduce the total number of requests. In addition, the file size of a single, albeit larger image is less than the sum of the original images.
 
-Creating a CSS image sprite and coding its styles can be time consuming. But once you&rsquo;ve mastered this skill, I guarantee your sites will be more performant.
+Creating a CSS image sprite and coding its styles can be time consuming. But once you've mastered this skill, I guarantee your sites will be more performant.
 
     #header-logo {
       background: url(../images/some-sprite.png) no-repeat -119px -9px;
@@ -106,7 +106,7 @@ Enabling gzip compression in Apache is available through [mod_deflate][7]. I use
 
 ### Resource Caching
 
-Most site resources are static. Your site&rsquo;s background images, CSS, and JavaScript don&rsquo;t change frequently. As such, these resources should be cached. Caching tells the browser to save these resources instead of requesting them again on subsequent page requests.
+Most site resources are static. Your site's background images, CSS, and JavaScript don't change frequently. As such, these resources should be cached. Caching tells the browser to save these resources instead of requesting them again on subsequent page requests.
 
 Adding an `Expires` header by file type is simple in Apache:
 
@@ -132,7 +132,7 @@ There are several WordPress plugins. Some are basic, like [Hyper-Cache][8], only
 
 ### PHP Caching
 
-PHP Caching is important for when WordPress does run. While hopefully this isn&rsquo;t often if you&rsquo;ve implemented WordPress Caching, it improves performance nonetheless. As PHP is an interpreted language, code is typically parsed and run on each request. An opcode cache saves the parsed PHP code. APC is the most common PHP cache. If APC is available, you should install [APC Object Cache][10] or enable this with W3 Total Cache.
+PHP Caching is important for when WordPress does run. While hopefully this isn't often if you've implemented WordPress Caching, it improves performance nonetheless. As PHP is an interpreted language, code is typically parsed and run on each request. An opcode cache saves the parsed PHP code. APC is the most common PHP cache. If APC is available, you should install [APC Object Cache][10] or enable this with W3 Total Cache.
 
 ### Database Caching
 
@@ -173,11 +173,11 @@ Since Apache 2.2.17, `FallBackResource` performs the same:
     FallbackResource /index.php
     
 
-When possible, add these directly to your site&rsquo;s Apache configuration file. Doing so allows them to load with Apache and not for every page request (when using .htaccess). Might add a few requests per second depending on your setup.
+When possible, add these directly to your site's Apache configuration file. Doing so allows them to load with Apache and not for every page request (when using .htaccess). Might add a few requests per second depending on your setup.
 
 ### Hosting
 
-You&rsquo;ll be lucky to get more than 10 requests/second on $3/month shared hosting. Hosting on a WordPress optimized host or VPS will immediately improve this. Upgrading your hosting is likely the simplest way to make WordPress fast. Albeit costlier. 
+You'll be lucky to get more than 10 requests/second on $3/month shared hosting. Hosting on a WordPress optimized host or VPS will immediately improve this. Upgrading your hosting is likely the simplest way to make WordPress fast. Albeit costlier. 
 
 ## Tools and Resources
 

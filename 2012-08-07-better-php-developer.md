@@ -14,17 +14,17 @@ tags:
   - php
 description: After reviewing thousands of lines of code over the last few years, I compiled a list of simple tips to help you be a better PHP developer.
 ---
-As a [consultant][1] I see a lot of code. I also dedicate a few hours per week to [StackOverflow][2]. Unfortunately a lot of the PHP code I see is a candidate for [Jeremy Kendall][3]‘s [CSI: PHP][4]. PHP has a bum rap as *unsophisticated*. But this isn&rsquo;t PHP&rsquo;s fault. It&rsquo;s the developers. Better code starts with *you*! Time to step up and be a better PHP developer.
+As a [consultant][1] I see a lot of code. I also dedicate a few hours per week to [StackOverflow][2]. Unfortunately a lot of the PHP code I see is a candidate for [Jeremy Kendall][3]‘s [CSI: PHP][4]. PHP has a bum rap as *unsophisticated*. But this isn't PHP's fault. It's the developers. Better code starts with *you*! Time to step up and be a better PHP developer.
 
-I created an initial set of tips that will help you become a better PHP developer. While these can be abstracted to any language, my examples are specific to PHP. Furthermore, I have left out those I felt were personal preference – such as code formatting or avoiding PHP&rsquo;s alternative syntax.
+I created an initial set of tips that will help you become a better PHP developer. While these can be abstracted to any language, my examples are specific to PHP. Furthermore, I have left out those I felt were personal preference – such as code formatting or avoiding PHP's alternative syntax.
 
-## Don&rsquo;t use PHP short tags
+## Don't use PHP short tags
 
 While I appreciate the shorthand, avoiding three additional keystrokes is the ultimate laziness. Especially when three keystrokes cost more than you realize – namely compatibility and portability.
 
 Yes, [`short_open_tags`][5] is an INI setting. Yes, it was re-enabled by default in PHP 5.3. But not every server runs PHP 5.3. Not everyone can modify their INI. Using XML? How do you differentiate between an XML header?
 
-PHP short tags can get messy and confusing. Use `<?php`. It&rsquo;s clear and says, *&ldquo;Hey bitches, I&rsquo;m writing PHP!&rdquo;*.
+PHP short tags can get messy and confusing. Use `<?php`. It's clear and says, *&ldquo;Hey bitches, I'm writing PHP!&rdquo;*.
 
 ## Stop using the MySQL library
 
@@ -42,7 +42,7 @@ PHP has excellent documentation. Once you're done with String and Array, you sho
 
 ## Go forth and be a better PHP developer
 
-I guarantee putting these tips into practice will put you on the path to becoming a better PHP developer. In the end, it&rsquo;s about knowing your language and staying current. On that note, you should jump over and read my post about [Routines of a Good Developer][14].
+I guarantee putting these tips into practice will put you on the path to becoming a better PHP developer. In the end, it's about knowing your language and staying current. On that note, you should jump over and read my post about [Routines of a Good Developer][14].
 
 *This post is part of a series on [How to be a Better PHP Developer][15].*
 

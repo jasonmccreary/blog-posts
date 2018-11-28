@@ -28,11 +28,11 @@ The latest version of this standard is [PSR-2][5], which expands [PSR-1][6], is 
 
 ## Stick to the coding standards
 
-It is human nature to bend the rules. But there&rsquo;s no point in adopting a standard only to break it. I wanted to follow PSR-2 strictly. Not just the parts I liked. So I needed something to keep me honest.
+It is human nature to bend the rules. But there's no point in adopting a standard only to break it. I wanted to follow PSR-2 strictly. Not just the parts I liked. So I needed something to keep me honest.
 
 A while back I came across PHP CodeSniffer. I intended to use it for automated code validation with an svn post-hook. PHP CodeSniffer features pluggable coding standards you can validate against. In addition, one for PSR-2 exist.
 
-You can download PHP CodeSniffer. If you have [PEAR installed][8], it&rsquo;s easier:
+You can download PHP CodeSniffer. If you have [PEAR installed][8], it's easier:
 
     pear install PHP_CodeSniffer
 
@@ -48,9 +48,9 @@ You can run PHP CodeSniffer against an entire directory.
 
 ## Format legacy code
 
-Since I just adopted the PSR-2 coding standard, I had several violations in my current projects. However, as traditional lazy developer, I didn&rsquo;t want to edit hundreds of lines of code.
+Since I just adopted the PSR-2 coding standard, I had several violations in my current projects. However, as traditional lazy developer, I didn't want to edit hundreds of lines of code.
 
-I found [PHP CS Fixer][10]. It auto-formats code to meet PSR-2 (among others). While it doesn&rsquo;t correct everything, it fixes the tedious ones.
+I found [PHP CS Fixer][10]. It auto-formats code to meet PSR-2 (among others). While it doesn't correct everything, it fixes the tedious ones.
 
     php-cs-fixer fix api/ --level=psr2 --dry-run
 

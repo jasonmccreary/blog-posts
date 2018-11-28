@@ -13,7 +13,7 @@ description: While talking about technology trends, I heard an interesting analo
 ---
 In a recent interview I hung out with the team after hours. An interesting conversation started with one of their engineers ([not developer][1]). We were talking about current technologies. He related this to fashion and style. I thought this was an insightful analogy and wanted to share.
 
-Fashion is the latest trend &mdash; *in vogue*. Technologies such as Ruby on Rails might have been high-fashion a few years ago or NoSQL now. These technologies advocated by diehard evangelists. After all fashion is not without passion. It&rsquo;s hip and cool and *you should do it.*
+Fashion is the latest trend &mdash; *in vogue*. Technologies such as Ruby on Rails might have been high-fashion a few years ago or NoSQL now. These technologies advocated by diehard evangelists. After all fashion is not without passion. It's hip and cool and *you should do it.*
 
 An interesting quality of fashion is that it moves in cycles. Upon closer inspection these technologies are not new. Merely new faces of old technology. [MVC][2] from the 1970s. [NoSQL][3] from the 1990s.
 

@@ -20,11 +20,11 @@ During the development process I may have several CSS files containing all sorts
 
 Normally, when one needs to go from a raw material to a finished products, a tool is used. In this case, I need something that can process my CSS files between development and production. Maybe it can also do some additional items during processing, like code formatting, file organization, or minification. I did not find such a tool that existed. So I have undertaken this project to develop such a tool.
 
-With any tool there are guidelines or a practice. You wouldn&rsquo;t use a chainsaw while building a dollhouse. So even though this will not fit the need, my hope is that this tool will nonetheless help.
+With any tool there are guidelines or a practice. You wouldn't use a chainsaw while building a dollhouse. So even though this will not fit the need, my hope is that this tool will nonetheless help.
 
 #### Project Specification
 
-I know we are all different, which makes this project near impossible. I have done the best to accommodate that into this spec. Nonetheless, with every tool there are guidelines. I mean you wouldn&rsquo;t use a chainsaw while building a dollhouse. My hope is that by adopting a few industry conventions, and drawing some lines, this tool will help a maximum audience.
+I know we are all different, which makes this project near impossible. I have done the best to accommodate that into this spec. Nonetheless, with every tool there are guidelines. I mean you wouldn't use a chainsaw while building a dollhouse. My hope is that by adopting a few industry conventions, and drawing some lines, this tool will help a maximum audience.
 
 *   Accept CSS files 
     *   files can be within directories

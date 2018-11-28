@@ -12,19 +12,19 @@ tags:
   - javascript
   - prototype
 ---
-I have been using [Prototype][1] for the last year. I am still relatively new, but so far it does everything I need it to do natively. I have build many reusable scripts that do everything from adding simple events to automatic front-end form validation. With additional visual effects by the partnering [Scriptaculous][2] library, there isn&rsquo;t much left. That is until I came across the need for front-end cookie management.
+I have been using [Prototype][1] for the last year. I am still relatively new, but so far it does everything I need it to do natively. I have build many reusable scripts that do everything from adding simple events to automatic front-end form validation. With additional visual effects by the partnering [Scriptaculous][2] library, there isn't much left. That is until I came across the need for front-end cookie management.
 
 ### Why Front-End Cookie Management
 
-As a back-end programmer, front-end cookie management seems silly. Why would I need or want to use something like JavaScript to manage cookies. Until recently, I would have just used PHP or Ruby for the job. However, I have found myself on contract as Lead Front-End developer. As such, those technologies are not available to me. Furthermore, tasking someone down on the IT side of the house can be a time consuming hassle. And came you blame them? I&rsquo;m able to reverse the roles, and if some marketing guy asked me to set up a cookie to store XYZ, I&rsquo;d laugh. Rightly so too, why should I waste such time storing things like text size, toggled modules, etc on the back-end. After all, aren&rsquo;t such examples why cookies exist. User settings or preferences may necessitate back-end involvement, and these can be stored in a cookie for convenience. Yet, something dealing with the UI doesn&rsquo;t really warrant involvement.
+As a back-end programmer, front-end cookie management seems silly. Why would I need or want to use something like JavaScript to manage cookies. Until recently, I would have just used PHP or Ruby for the job. However, I have found myself on contract as Lead Front-End developer. As such, those technologies are not available to me. Furthermore, tasking someone down on the IT side of the house can be a time consuming hassle. And came you blame them? I'm able to reverse the roles, and if some marketing guy asked me to set up a cookie to store XYZ, I'd laugh. Rightly so too, why should I waste such time storing things like text size, toggled modules, etc on the back-end. After all, aren't such examples why cookies exist. User settings or preferences may necessitate back-end involvement, and these can be stored in a cookie for convenience. Yet, something dealing with the UI doesn't really warrant involvement.
 
-### Where&rsquo;s the Cookie Monster
+### Where's the Cookie Monster
 
-So the obvious choice to manage cookies on front-end is JavaScript. During research, I came across two interesting pages. The first was a collection of [Top 10 JavaScripts][3], with the top being cookie management functions ported from PHP. Second was a JavaScript class called [CookieJar][4]. At first, I didn&rsquo;t quite understand the point. See to JavaScript the cookie comes across as a simple key value pair as semi-colon separate string in `document.cookie`. If you want to track several variables, you would need to set as many cookies. That would get old… err stale. Anyway, instead of having all these cookies floating around, the JavaScript CookieJar organized then for you.
+So the obvious choice to manage cookies on front-end is JavaScript. During research, I came across two interesting pages. The first was a collection of [Top 10 JavaScripts][3], with the top being cookie management functions ported from PHP. Second was a JavaScript class called [CookieJar][4]. At first, I didn't quite understand the point. See to JavaScript the cookie comes across as a simple key value pair as semi-colon separate string in `document.cookie`. If you want to track several variables, you would need to set as many cookies. That would get old… err stale. Anyway, instead of having all these cookies floating around, the JavaScript CookieJar organized then for you.
 
 ### Enter Prototype
 
-CookieJar was a little primitive. The premise, to store the variables as a hash in a single cookie, was sound. But it didn&rsquo;t actually handle cookie storage. Now this may be kitchen for the Object Oriented elitists, but I merged the two scripts. To regain some ground, I wanted my Cookie class to be a Singleton Gateway. As such, it should do everything required to access, manage, and maintain the Cookie. Since I was already using Prototype, I took advantage of its Hash object. I ended up with the script below.
+CookieJar was a little primitive. The premise, to store the variables as a hash in a single cookie, was sound. But it didn't actually handle cookie storage. Now this may be kitchen for the Object Oriented elitists, but I merged the two scripts. To regain some ground, I wanted my Cookie class to be a Singleton Gateway. As such, it should do everything required to access, manage, and maintain the Cookie. Since I was already using Prototype, I took advantage of its Hash object. I ended up with the script below.
 
     var Cookie = {
       data: {},
@@ -113,7 +113,7 @@ I wanted all the cookie variables to be stored in a single cookie. The class doe
 
 I also wanted to encapsulate the cookie data. Plus since I was storing the cookie data as a Hash, I may have future changes. So the `getData`, `setData` accessor methods can be used for data management. And In *Rails-esk* fashion, I auto-save the cookie at the end of `setData`.
 
-Finally, the Cookie auto-loads or is auto-created depending on the name passed to `init`. It will look in `document.cookie` and if it doesn&rsquo;t exist it will create a cookie with the settings provided. Finally, it loads the cookie data.
+Finally, the Cookie auto-loads or is auto-created depending on the name passed to `init`. It will look in `document.cookie` and if it doesn't exist it will create a cookie with the settings provided. Finally, it loads the cookie data.
 
 ### In Closing
 

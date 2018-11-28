@@ -90,7 +90,7 @@ This `VirtualHost` configuration allows me to access my site from *http://jason.
 
 **Note**: I use the extension *local*. This avoids conflicts with any *real* extensions and serves as a reminder I am developing in my *local* environment.
 
-**Note**: The `Require all granted` configuration became available in Apache 2.4 which comes with OS X Yosemite. If you are running a version of OS X before Yosemite, use the equivalent 2.2 configuration in the [upgrading Apache examples](http://httpd.apache.org/docs/2.4/upgrading.html#run-time).
+**Note**: The `Require all granted` configuration became available in Apache 2.4 which comes with Mac OS X Yosemite. If you are running a version of OS X before Yosemite, use the equivalent 2.2 configuration in the [upgrading Apache examples](http://httpd.apache.org/docs/2.4/upgrading.html#run-time).
 
 The final step is to restart Apache:
 

@@ -17,7 +17,7 @@ keywords: wordcamp, chicago, configuring wordpress, multiple environments, jason
 ---
 ***UPDATE:** This talk has been posted on [WordPress.tv][1].*
 
-I just completed my talk on [Configuring WordPress for Multiple Environments][2] at [WordCamp Chicago][3]. Probably close to a hundred in the crowd. Being only my second talk, it was a bit intimidating. But the feedback has been positive. So much so that I&rsquo;ve been asked to release my code samples and slides immediately.
+I just completed my talk on [Configuring WordPress for Multiple Environments][2] at [WordCamp Chicago][3]. Probably close to a hundred in the crowd. Being only my second talk, it was a bit intimidating. But the feedback has been positive. So much so that I've been asked to release my code samples and slides immediately.
 
 ## The Talk
 
@@ -37,7 +37,7 @@ The slides for the talk will eventually be on SlideShare. For now you can [downl
 
 The following demonstrate using the `VIA_ENVIRONMENT` constant to perform environment specific code.
 
-Include Google Analytics in just Production (in theme&rsquo;s `header.php`):
+Include Google Analytics in just Production (in theme's `header.php`):
 
     <?php
     if (VIA_ENVIRONMENT == 'prod') {
@@ -59,7 +59,7 @@ Include Google Analytics in just Production (in theme&rsquo;s `header.php`):
     }
     ?> 
 
-Use minified resources for any non-Development environment (in theme&rsquo;s `header.php`):
+Use minified resources for any non-Development environment (in theme's `header.php`):
 
     <?php
     if (VIA_ENVIRONMENT == 'dev') {
@@ -80,7 +80,7 @@ Use minified resources for any non-Development environment (in theme&rsquo;s `he
 
 ## Setting up a WordPress development environment Unconference
 
-After strong interest I have spoken with the WordCamp Chicago organizers about adding an unconference. We&rsquo;ve been approved to use the open time slot from 9:00-10:00 Sunday morning. I will be helping anyone interested in setting up a local development environment on their Mac. If you&rsquo;d like to do so on a different OS I will try to find additional moderators. Please reach out to me at the after-party or on Twitter, [@gonedark][10], if you plan to attend.
+After strong interest I have spoken with the WordCamp Chicago organizers about adding an unconference. We've been approved to use the open time slot from 9:00-10:00 Sunday morning. I will be helping anyone interested in setting up a local development environment on their Mac. If you'd like to do so on a different OS I will try to find additional moderators. Please reach out to me at the after-party or on Twitter, [@gonedark][10], if you plan to attend.
 
 See you at the after-party!
 

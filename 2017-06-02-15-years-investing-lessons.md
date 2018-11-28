@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '15 years of unprofessional trading'
+title: '15 years of amateur trading'
 date: 2017-06-02 11:37
 comments: true
 categories:

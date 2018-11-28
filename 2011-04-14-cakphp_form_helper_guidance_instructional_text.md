@@ -18,7 +18,7 @@ keywords: cakephp, form helper, guidance text, instruction, input
 ---
 Often form fields have guidance text. Some simple example of how the data should be entered, like *Enter your username*. In the application world (e.g. iPhone) this appears within the field. HTML5 offers this same effect as a new attribute. However, at the moment you would need to implement an [over label solution][1] using CSS and or JavaScript. Either way, the instructional text or markup needs to exist for that form element. Furthermore, if the text were more instructional, you may not want to use `<label>` as the markup.
 
-In CakePHP this presented a challenge. If you are using the [Form Helper][2], the markup is generated for you. I wanted a solution that would inject my guidance text or instructional markup into CakePHP&rsquo;s generated output.
+In CakePHP this presented a challenge. If you are using the [Form Helper][2], the markup is generated for you. I wanted a solution that would inject my guidance text or instructional markup into CakePHP's generated output.
 
 By default, the following simple method:
 

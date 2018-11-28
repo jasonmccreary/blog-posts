@@ -4,14 +4,14 @@ title: "Letting a successful app fail"
 heading: "Letting a successful app fail"
 date: 2014-03-02 16:29
 comments: true
-categories: 
+categories:
 - Main Thread
 excerpt: "Making the difficult decision to let PocketBracket, a successful app, fail."
 subheading: "Making the difficult decision to let PocketBracket, a successful app, fail."
 description: "Making the difficult decision to let PocketBracket, a successful app, fail."
 subheading: "Making the difficult decision to let PocketBracket, a successful app, fail."
 ---
-Since 2009 I have developed [PocketBracket - an app for March Madness](http://www.pocketbracket.com "PocketBracket"). At it's height, PocketBracket has been #1 in Sports Apps, #27 in Top Paid Apps, and available on Android, iOS, and Windows Phone.
+Since 2009 I have developed [PocketBracket - an app for March Madness](http://www.pocketbracket.com "PocketBracket"). At its height, PocketBracket has been #1 in Sports Apps, #27 in Top Paid Apps, and available on Android, iOS, and Windows Phone.
 
 Today I decided, just weeks away from the tournament, to let PocketBracket fail. I will not release a version for the 2014 season.
 

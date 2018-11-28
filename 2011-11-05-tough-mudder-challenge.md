@@ -24,13 +24,13 @@ Each Tough Mudder course is different. But the following video demonstrates the 
 
 > A man should measure himself against a strong force at least once in his life to see if he can handle it.
 
-Tough Mudder is as much about physical endurance as it is will. In addition, several of the obstacles are designed to require a group effort. Many races or events are about the individual. I like the camaraderie Tough Mudder adds. You have to band together to complete it. Finally, Tough Mudder isn&rsquo;t about results. There are no times, no scores, no places. It&rsquo;s about finishing.
+Tough Mudder is as much about physical endurance as it is will. In addition, several of the obstacles are designed to require a group effort. Many races or events are about the individual. I like the camaraderie Tough Mudder adds. You have to band together to complete it. Finally, Tough Mudder isn't about results. There are no times, no scores, no places. It's about finishing.
 
 ## Preparation for Tough Mudder
 
 I trained for 5k races in the summer. So I had a base to start Tough Mudder training. I added weight lifting and the [Tough Mudder workout][3] to the weekly routine.
 
-Any opportunity to add grit to the training was taken. My parents had an uprooted tree that needed removal. Instead of a chainsaw and trailer, we used axes and carried the logs. Before our long weekend runs we dump buckets of water on ourselves. I&rsquo;ve started running home from work once a week. Particularly on the days that it rains.
+Any opportunity to add grit to the training was taken. My parents had an uprooted tree that needed removal. Instead of a chainsaw and trailer, we used axes and carried the logs. Before our long weekend runs we dump buckets of water on ourselves. I've started running home from work once a week. Particularly on the days that it rains.
 
 ## Goals
 

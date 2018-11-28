@@ -15,9 +15,9 @@ During a lunch discussion on programming languages a co-worker made the notoriou
 
 > &ldquo;[certain language] developers are better developers.&rdquo;
 
-I generalized the argument because I&rsquo;ve heard it before. We all have. Fill in the blank with any [fashionable language][1] – Scala, Ruby, Go, Python…
+I generalized the argument because I've heard it before. We all have. Fill in the blank with any [fashionable language][1] – Scala, Ruby, Go, Python…
 
-This argument quickly degrades into a language debate. One filled with feature comparison and syntactical analysis to demonstrate superiority. Why? Well, let&rsquo;s face it – developers can be elitist when it comes to *their* language.
+This argument quickly degrades into a language debate. One filled with feature comparison and syntactical analysis to demonstrate superiority. Why? Well, let's face it – developers can be elitist when it comes to *their* language.
 
 I also generalized to keep the focus off *[certain language]* and focus on the *developer*. I want to evaluate this argument objectively. And if I said, *&ldquo;PHP developers are better developers&rdquo;* you would have dumped core. Which proves the point.
 

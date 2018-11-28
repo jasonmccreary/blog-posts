@@ -18,7 +18,7 @@ subheading: "This post outlines how to install PEAR and PECL on Mac OS X."
 ---
 The following instructions install [PEAR][1] and [PECL][2] on Mac OS X under **/usr/local/**. PECL is bundled with PEAR. So this is as simple as installing PEAR on Mac OS X.
 
-PEAR is PHP&rsquo;s *Package* Repository and makes it easy to download and install PHP tools like [PHPUnit][3] and [XDebug][4]. I specifically recommend these two for every PHP developer.
+PEAR is PHP's *Package* Repository and makes it easy to download and install PHP tools like [PHPUnit][3] and [XDebug][4]. I specifically recommend these two for every PHP developer.
 
 ## Download PEAR
 
@@ -49,7 +49,7 @@ You should be able to type:
     pear version
     
 
-Eventually, if you use any extensions or applications from PEAR, you may need to update [PHP&rsquo;s include path][5].
+Eventually, if you use any extensions or applications from PEAR, you may need to update [PHP's include path][5].
 
  [1]: http://pear.php.net "PEAR"
  [2]: http://pecl.php.net "PECL"

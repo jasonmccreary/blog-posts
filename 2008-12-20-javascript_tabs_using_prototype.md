@@ -26,11 +26,11 @@ For me, a tab solution should meet the following requirements:
 
 ## Their Solution
 
-As I said before, the W3C&rsquo;s solution was a bit specific. The containing elements where `<fieldsets>` within a `<form>`. I converted these to a `<div>` wrapped within a `<div>`. It may border "divitis", but it affords greater flexibility.
+As I said before, the W3C's solution was a bit specific. The containing elements where `<fieldsets>` within a `<form>`. I converted these to a `<div>` wrapped within a `<div>`. It may border "divitis", but it affords greater flexibility.
 
 Their solution did an excellent job of adding the JavaScript progressively. With JavaScript disabled, it degrades to stacking the tabbed content. The tabs still function as navigation. This comes together elegantly by a named anchor. Many of the solutions I reviewed had obtrusive JavaScript with `onclick` attributes or `href="#"`. So credit to the W3C developers on this.
 
-As a small note, their solution manipulated the hash (named anchor link) with JavaScript. Maybe a requirement for their needs, but it didn&rsquo;t seem necessary. In addition, with JavaScript disabled it breaks page links containing the hash. Very small, but it can function without manipulating the hash.
+As a small note, their solution manipulated the hash (named anchor link) with JavaScript. Maybe a requirement for their needs, but it didn't seem necessary. In addition, with JavaScript disabled it breaks page links containing the hash. Very small, but it can function without manipulating the hash.
 
 Finally, there were not configuration options. At a minimum it should have the following options:
 

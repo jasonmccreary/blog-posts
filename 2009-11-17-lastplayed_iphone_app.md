@@ -15,7 +15,7 @@ I started iPhone development in early 2009. I will admit it was a slow start. Ev
 
 ## LastPlayed and LastPlayed+
 
-LastPlayed combines access to iPod Library with in-app Google Maps, new to iPhone SDK 3.0. It&rsquo;s centered around answer a common question – "What are you listening to?" It does so by broadcasting your currently playing song across the LastPlayed Network. This is visible to other users when they first open the app or are in your proximity, and when browsing the map view.
+LastPlayed combines access to iPod Library with in-app Google Maps, new to iPhone SDK 3.0. It's centered around answer a common question – "What are you listening to?" It does so by broadcasting your currently playing song across the LastPlayed Network. This is visible to other users when they first open the app or are in your proximity, and when browsing the map view.
 
 There is also a *plus* version, for 99 cents, that adds some *valuable* features. First are integrated player controls. This keeps you from having to bounce between the iPod app and LastPlayed, and I spent extra time ensuring that the controls function just like the iPod. Second are some social networking features that allow users to share their song info via Facebook and Twitter. Sharing happens automatically for each song or manually depending on your settings.
 
@@ -35,15 +35,15 @@ I spent some time researching XML solutions before deciding. For this app, I had
 
 I drop pin annotations on the map to represent where a song is playing. For scalability, I needed to determine if a pin already existed on the map so the new pin would not overlap. Both a WWDC session and the docs lead me to believe that this should be easy to determine. Somewhere, either by my misunderstanding or incorrect documentation, something went wrong.
 
-In theory, I could simply test the occupied rectangle for the existing pin against the new pin. Yet, in practice, this didn&rsquo;t hold true. If I added a new pin to the same map coordinate the tip of the pin appeared at the upper left of the existing pin. Shouldn&rsquo;t it have put in the same place as the existing pin? There is a centerOffset property, which I expected to return an offset to compensate for such behavior. But it did not.
+In theory, I could simply test the occupied rectangle for the existing pin against the new pin. Yet, in practice, this didn't hold true. If I added a new pin to the same map coordinate the tip of the pin appeared at the upper left of the existing pin. Shouldn't it have put in the same place as the existing pin? There is a centerOffset property, which I expected to return an offset to compensate for such behavior. But it did not.
 
 I battled with this for about a day. In the end, I offset the new pin by half the size of the existing pin. This gave me the expected results. I will not go so far to call this a bug, but at the least, it was unintuitive.
 
 ## Marketing LastPlayed
 
-I felt the idea of LastPlayed was novel. I did my best to rush it to market. But as I often find with the App Store, although there was no competition during development, others existed by release. It&rsquo;s such a coincidence, it makes me wonder if Apple holds similar apps and releases them simultaneously to create competition. But, although biased, LastPlayed has much better features and interface. 
+I felt the idea of LastPlayed was novel. I did my best to rush it to market. But as I often find with the App Store, although there was no competition during development, others existed by release. It's such a coincidence, it makes me wonder if Apple holds similar apps and releases them simultaneously to create competition. But, although biased, LastPlayed has much better features and interface. 
 
-Regardless of features and first to market, getting an app into the App Store is a two fold marketing nightmare. First, there&rsquo;s really no way to know exactly when your app will be approved. So it&rsquo;s very difficult to coordinate any kind of initial release. Second, with 100,000 apps and counting, your app drowns within 2 days. Unless you have the best app ever or backed by a company budget, it&rsquo;s tough to stay on top.
+Regardless of features and first to market, getting an app into the App Store is a two fold marketing nightmare. First, there's really no way to know exactly when your app will be approved. So it's very difficult to coordinate any kind of initial release. Second, with 100,000 apps and counting, your app drowns within 2 days. Unless you have the best app ever or backed by a company budget, it's tough to stay on top.
 
 All us garage developers are left with is:
 
@@ -53,19 +53,19 @@ All us garage developers are left with is:
 
 Unfortunately, these are closed looped and there is no guarantee the audience has an iPhone or iPod Touch. Personally, I find ads to be a waste of money. Not only for the reason above, but ROI is minimal, possibly negative, and the metrics are poor. The latter is especially true with Facebook.
 
-The good news is LastPlayed+ was built to market itself. Users more than likely buy the app to share what their listening to with friends on Facebook and followers on Twitter. Therein lies the rub. As LastPlayed+ grows, so does the amount of people that see it. At least that&rsquo;s the theory.
+The good news is LastPlayed+ was built to market itself. Users more than likely buy the app to share what their listening to with friends on Facebook and followers on Twitter. Therein lies the rub. As LastPlayed+ grows, so does the amount of people that see it. At least that's the theory.
 
 ## Future Versions of LastPlayed
 
 In order to get the app to market, the vision for LastPlayed was scaled back to a quarter of what is was. There are so many features I want to see in future version of LastPlayed. I am leery to publish them in this article. Nonetheless, the next update will include the ability to control the shared message and participate in #MusicMondays on Twitter.
 
-I also have the intention of having LastPlayed+ features slowly filter down to LastPlayed. Of course not all features will end up in the free version. That would just piss people off. But don&rsquo;t be surprised to see player controls in the next upgrade of the free version.
+I also have the intention of having LastPlayed+ features slowly filter down to LastPlayed. Of course not all features will end up in the free version. That would just piss people off. But don't be surprised to see player controls in the next upgrade of the free version.
 
-Right now, it&rsquo;s difficult to decide the exact direction. Are the social networking features more appealing or the combination of player controls? In addition, with Apple now allowing In-App Purchase for Free Apps, LastPlayed and LastPlayed+ could soon merge.
+Right now, it's difficult to decide the exact direction. Are the social networking features more appealing or the combination of player controls? In addition, with Apple now allowing In-App Purchase for Free Apps, LastPlayed and LastPlayed+ could soon merge.
 
 ## In Closing
 
-LastPlayed has place in the App Store. It&rsquo;s a great idea and suits a music device like the iPod Touch and iPhone. I am proud of this app and can only hope to get the chance to continue adding features to see what the future brings.
+LastPlayed has place in the App Store. It's a great idea and suits a music device like the iPod Touch and iPhone. I am proud of this app and can only hope to get the chance to continue adding features to see what the future brings.
 
 I value your feedback. At the moment, I still have several promo codes remaining to get LastPlayed+ for free. First come, first served.
 

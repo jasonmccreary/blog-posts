@@ -13,7 +13,7 @@ description: This post provides step-by-step instructions for installing node.js
 ---
 ***Update:** [node.js][1] now has a package installer for Mac OS X which includes node and npm. Unless you need to install node or npm by hand, I suggest downloading the package installer.*
 
-I&rsquo;ve been wanting to mess with [I/O Docs][2] for some time now. I/O Docs requires [node.js][3], [npm][4], and [redis][5]. I hear the buzz around these technologies, but I have yet to use them. Although I found [several posts][6] and a [package][7] for installing node.js and npm on Mac OS X, each had issues. Mac OS X runs atop BSD Unix. So, while potentially intimidating, you can install all these yourself by running commands within Terminal.
+I've been wanting to mess with [I/O Docs][2] for some time now. I/O Docs requires [node.js][3], [npm][4], and [redis][5]. I hear the buzz around these technologies, but I have yet to use them. Although I found [several posts][6] and a [package][7] for installing node.js and npm on Mac OS X, each had issues. Mac OS X runs atop BSD Unix. So, while potentially intimidating, you can install all these yourself by running commands within Terminal.
 
 ## Installing node.js
 
@@ -27,22 +27,22 @@ After much Googling I discovered an overwhelming [set of node.js installation in
     curl http://nodejs.org/dist/node-v0.4.7.tar.gz | tar xz --strip-components=1
     ./configure --prefix=~/local
     make install
-    
+
 
 A few notes.
 
-First, this installs node.js version 0.4.7. From what I read, this is currently the most compatible version. If you require a different version, I&rsquo;ll assume you know more about installing node.js than me.
+First, this installs node.js version 0.4.7. From what I read, this is currently the most compatible version. If you require a different version, I'll assume you know more about installing node.js than me.
 
-Second, bash on Max OS X uses `.bash_profile` not `.bashrc`. I&rsquo;ve modified the [original script][9] to reflect these changes. 
+Second, bash on Mac OS X uses `.bash_profile` not `.bashrc`. I've modified the [original script][9] to reflect these changes. 
 
 ## Installing npm
 
 Once you have installed node.js, you can install npm with just one command.
 
     curl http://npmjs.org/install.sh | sh
-    
 
-I should pass along the warning that this runs commands streamed from the internet. If you&rsquo;re paranoid about that kind of stuff, you should download and verify `install.sh` first.
+
+I should pass along the warning that this runs commands streamed from the internet. If you're paranoid about that kind of stuff, you should download and verify `install.sh` first.
 
 ## Installing redis
 
@@ -54,7 +54,7 @@ Redis was a straightforward install. For the most part I followed the [redis qui
     cd redis-stable
     make
     sudo make install
-    
+
 
 **Note**: `rm redis-stable.tar.gz` is simple cleanup. `sudo make install` is optional as it adds the Redis commands to */usr/local/bin/*.
 

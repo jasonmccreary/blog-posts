@@ -14,9 +14,9 @@ tags:
   - script
 description: Instructions for installing and configuring AWStats on Amazon EC2 and a script that automatically configures and updates sites for AWStats.
 ---
-As admitted before, I am no sysadmin. However, I&rsquo;ve taken an interest in [Amazon EC2][1]. As such, I&rsquo;m learning as I go. This time, it&rsquo;s how to install [AWStats][2]. What&rsquo;s a server without stats, right?
+As admitted before, I am no sysadmin. However, I've taken an interest in [Amazon EC2][1]. As such, I'm learning as I go. This time, it's how to install [AWStats][2]. What's a server without stats, right?
 
-Right now, for learning purposes, I have an EC2 micro instance running Amazon Linux 64-bit. That likely doesn&rsquo;t matter for the install. There are a few conventions I follow:
+Right now, for learning purposes, I have an EC2 micro instance running Amazon Linux 64-bit. That likely doesn't matter for the install. There are a few conventions I follow:
 
 *   Web data is in */var/www/*
 *   Website logs are in */var/logs/httpd/sites/*
@@ -29,7 +29,7 @@ With that said, the following steps install and configure AWStats (version 7.0).
         tar -zxf awstats-7.0.tar.gz 
         sudo mv awstats-7.0/ /var/www/awstats
 
-2.  Enable CGI including the .pl extension under Apache. There are [alternatives][3] if you don&rsquo;t want to enable CGI globally.
+2.  Enable CGI including the .pl extension under Apache. There are [alternatives][3] if you don't want to enable CGI globally.
     
         sudo vi /etc/httpd/conf/httpd.conf
     
@@ -41,7 +41,7 @@ With that said, the following steps install and configure AWStats (version 7.0).
     
         AddHandler cgi-script .cgi .pl
 
-3.  Run the [AWStats Tool][4] and follow the instructions. I followed the defaults and named my server *ec2test*. From what [I read][5], the name doesn&rsquo;t really matter.
+3.  Run the [AWStats Tool][4] and follow the instructions. I followed the defaults and named my server *ec2test*. From what [I read][5], the name doesn't really matter.
     
         sudo perl /var/www/awstats/tools/awstats_configure.pl
 
@@ -66,14 +66,14 @@ When I first visited my AWStats, I got a 404. After some digging around, I found
     ScriptAlias /awstats/ "/var/www/awstats/wwwroot/cgi-bin/"
     
 
-AWStats didn&rsquo;t 404. But there was no data. AWStats has an updater you need to run for each of your sites.
+AWStats didn't 404. But there was no data. AWStats has an updater you need to run for each of your sites.
 
     sudo /var/www/awstats/wwwroot/cgi-bin/awstats.pl -update -config=ec2test
     
 
 ## Automating AWStats Updates
 
-If you only have one site putting the above in cron is no big deal. But if you have multiple sites with multiple configurations, that&rsquo;s another story. There&rsquo;s a maintenance overhead for making the conf file and then adding the command to cron.
+If you only have one site putting the above in cron is no big deal. But if you have multiple sites with multiple configurations, that's another story. There's a maintenance overhead for making the conf file and then adding the command to cron.
 
 I found a shell script that does all this for you. Essentially, it examines your site logs and ensure that an AWStats configuration exists. Under the assumption if a site has an access log you want AWStats for it. It then runs the AWStats updater for that configuration.
 
@@ -87,7 +87,7 @@ I changed a few lines in the template:
 *   All instances of *ec2test* to *domain.tld* (*domain.tld* is a placeholder for the script)
 *   Changed the name and location of the access log file (use the placeholder)
 
-Here&rsquo;s the script. You can add it solely to cron – one script to rule them all.
+Here's the script. You can add it solely to cron – one script to rule them all.
 
     #!/bin/sh
     
@@ -120,7 +120,7 @@ Run it:
 
 # Closing
 
-There were several good references for installing and configuring AWStats. However, nothing seemed comprehensive or specific for Amazon EC2. So if nothing else, I figured I&rsquo;d post and fill the keyword gap to hopefully help those like me starting our with server admin and Amazon EC2.
+There were several good references for installing and configuring AWStats. However, nothing seemed comprehensive or specific for Amazon EC2. So if nothing else, I figured I'd post and fill the keyword gap to hopefully help those like me starting our with server admin and Amazon EC2.
 
  [1]: http://aws.amazon.com/ec2/ "Amazon EC2"
  [2]: http://awstats.sourceforge.net/

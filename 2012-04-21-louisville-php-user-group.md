@@ -15,11 +15,11 @@ description: For years I searched for a PHP User Group in Louisville. No more. I
 ---
 ***Update**: The Louisville PHP User Group is now on [Meetup.com][1]. Join the group for future updates.*
 
-For years I have looked for a Louisville PHP User Group. As Louisville is primarily a .NET town, my hopes for PHP have never been high. Unfortunately the Louisville tech community doesn&rsquo;t cross pollinate. Nonetheless, I have come across several developers and shops over the years using PHP. So there *is* PHP in Louisville.
+For years I have looked for a Louisville PHP User Group. As Louisville is primarily a .NET town, my hopes for PHP have never been high. Unfortunately the Louisville tech community doesn't cross pollinate. Nonetheless, I have come across several developers and shops over the years using PHP. So there *is* PHP in Louisville.
 
 > If you want something done, do it yourself.
 
-So I&rsquo;m starting the Louisville PHP User Group. The first meetup will mostly be a meet and greet. We&rsquo;ll vote on a group name. Something catchy like *LouPUG* or *PHINKY*. I&rsquo;ll also provide a brief recap from attending [php[tek]][2] the week before. And of course they&rsquo;ll be PHP swag.
+So I'm starting the Louisville PHP User Group. The first meetup will mostly be a meet and greet. We'll vote on a group name. Something catchy like *LouPUG* or *PHINKY*. I'll also provide a brief recap from attending [php[tek]][2] the week before. And of course they'll be PHP swag.
 
 The proposed schedule is to meet the last Wednesday of the month. Details for our first meetup are below. Please [comment][3] with your interest and help us spread the word.
 

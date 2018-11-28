@@ -12,7 +12,7 @@ tags:
   - front-end
   - rant
 ---
-Internet Explorer 6 (IE6) is the dreaded web browser that still lingers in existence. It was first released August 27, 2001. That is over 8 years old. Nearly a decade. But as Microsoft&rsquo;s web browser it was widely distributed. 
+Internet Explorer 6 (IE6) is the dreaded web browser that still lingers in existence. It was first released August 27, 2001. That is over 8 years old. Nearly a decade. But as Microsoft's web browser it was widely distributed. 
 
 Nonetheless, in the past two years Microsoft has released two major versions of IE. During which time many high-profile websites have discontinued support for IE6. I have yet to do so, but today I wrote my last IE6 hack, a CSS rule:
 
@@ -26,9 +26,9 @@ Nonetheless, in the past two years Microsoft has released two major versions of 
 
 This means I will not allow IE6 to factor into decisions. In addition, I will no longer develop additional styles or code to support IE6.
 
-## What&rsquo;s the big deal?
+## What's the big deal?
 
-The web is a constantly evolving landscape and IE6 is old. It arguably should have died naturally by now. I won&rsquo;t go into the fact that IE6 is poorly developed browser that didn&rsquo;t even support web standards of its day, much less present day. Simply put, supporting IE6 is a ridiculous waste of time. I admittedly have a low tolerance for such things. In addition, it hinders the overall design and development of a website.
+The web is a constantly evolving landscape and IE6 is old. It arguably should have died naturally by now. I won't go into the fact that IE6 is poorly developed browser that didn't even support web standards of its day, much less present day. Simply put, supporting IE6 is a ridiculous waste of time. I admittedly have a low tolerance for such things. In addition, it hinders the overall design and development of a website.
 
 ## What about Bob? (IE6 Users)
 

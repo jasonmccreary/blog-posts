@@ -24,7 +24,7 @@ This year we named our team the *Kentucky Irregulars* from the movie [Reign of F
 
 Similar to last year, the weather was overcast, windy, and in the 40s. We had an 8:00am start time. So limited sleep added to the challenge. But we prefer the early start for a fresh course. Free from obstacle lines and everything covered in mud.
 
-Now the Tough Mudder is challenging all around. Beyond the obstacles. You&rsquo;re running on uneven ground over rock, sand, mud, or tall grass. You&rsquo;re constantly wet and often covered in mud. So you&rsquo;re constantly carrying a few extra pounds. The weather, hot or cold, also drains your energy.
+Now the Tough Mudder is challenging all around. Beyond the obstacles. You're running on uneven ground over rock, sand, mud, or tall grass. You're constantly wet and often covered in mud. So you're constantly carrying a few extra pounds. The weather, hot or cold, also drains your energy.
 
 ## Most Dreaded Tough Mudder Obstacle
 
@@ -36,7 +36,7 @@ Previously named Chernobyl Jacuzzi. This obstacle is a 30ft long pool of 5ft dee
 
 **Everest**.
 
-Everest is a 12ft quarter pipe. You get a running start and leap for the rim. Typically mud covers the approach and ramp, adding to the challenge. This obstacle requires a helping hand from your fellow Mudder. And it&rsquo;s that camaraderie which makes this obstacle fun. Headbands off to the Tough Mudders who tackle Everest solo.
+Everest is a 12ft quarter pipe. You get a running start and leap for the rim. Typically mud covers the approach and ramp, adding to the challenge. This obstacle requires a helping hand from your fellow Mudder. And it's that camaraderie which makes this obstacle fun. Headbands off to the Tough Mudders who tackle Everest solo.
 
 ## Toughest Tough Mudder Obstacle
 
@@ -48,11 +48,11 @@ The Berlin Walls are a set of wooded barriers ranging from 6-12ft high. Typicall
 
 **Electroshock Therapy**.
 
-This is the signature obstacle of Tough Mudder. A 10-yard muddy gauntlet of dangling 10,000 volt hot wires. The finish line waits on the other side. My goal is always simple – don&rsquo;t fall.
+This is the signature obstacle of Tough Mudder. A 10-yard muddy gauntlet of dangling 10,000 volt hot wires. The finish line waits on the other side. My goal is always simple – don't fall.
 
 ## A Tough Mudder
 
-While everyone loves the pictures, people always ask *why*. *Why would you do that? It looks miserable.* My brother tells me, &ldquo;They wouldn&rsquo;t understand&rdquo;. I agree it is difficult to explain. Ultimately, you&rsquo;re not going to understand Tough Mudder until you do Tough Mudder. I consider Tough Mudder *hard fun*. I respect the challenge.
+While everyone loves the pictures, people always ask *why*. *Why would you do that? It looks miserable.* My brother tells me, &ldquo;They wouldn't understand&rdquo;. I agree it is difficult to explain. Ultimately, you're not going to understand Tough Mudder until you do Tough Mudder. I consider Tough Mudder *hard fun*. I respect the challenge.
 
 There are signs placed along the Tough Mudder course. I noticed one this time to this very point. It read:
 

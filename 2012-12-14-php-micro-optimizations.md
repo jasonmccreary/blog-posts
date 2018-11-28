@@ -69,7 +69,7 @@ Back in 2007 I emailed Ilia Alshanetsky about this very matter. He called it an 
 
 Double quotes performing better than single quotes is counter intuitive. Without the need for variable expansion, it stands to reason single quotes would be faster. Furthermore literal values (single quote) could be optimized in *memory*.
 
-I&rsquo;ve benchmarked double quotes versus single quotes several times without finding anything conclusive. Maybe double quotes are indeed faster. But to *replace all single quotes with double quotes* as the original post suggests is not worth the time. In the end, following your [code style][7] is more important.
+I've benchmarked double quotes versus single quotes several times without finding anything conclusive. Maybe double quotes are indeed faster. But to *replace all single quotes with double quotes* as the original post suggests is not worth the time. In the end, following your [code style][7] is more important.
 
 ## `UNION` vs. `OR`
 
@@ -79,14 +79,14 @@ I am currently reading [High Performance MySQL][8]. In fact, I just finished the
 
 First, the original example is bad. It suggests changing:
 
-    select username from users where company = ‘bbc&rsquo; or company = ‘itv&rsquo;;
+    select username from users where company = ‘bbc' or company = ‘itv';
     
 
 to:
 
-    select username from users where company = ‘bbd&rsquo;
+    select username from users where company = ‘bbd'
     union
-    select username from users where company = ‘itv&rsquo;;
+    select username from users where company = ‘itv';
     
 
 When using the same column, the opposite of what the author suggests is more performant. That is you should change from a `UNION` to an `OR` when the `WHERE` clause operates on the same column.
@@ -104,7 +104,7 @@ The original post did contain a few true optimizations.
 
 ## The Performance 80/20 Rule
 
-Performance follows the [80/20 Rule][12]. If *single quotes vs double quotes* accounts for 80% – you&rsquo;re optimized. Congratulations. You can go home. That is an absolute truth.
+Performance follows the [80/20 Rule][12]. If *single quotes vs double quotes* accounts for 80% – you're optimized. Congratulations. You can go home. That is an absolute truth.
 
 ## Remember
 

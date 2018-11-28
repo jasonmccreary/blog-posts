@@ -27,7 +27,7 @@ After debugging the `login()` and `logout()` actions I noticed that `Auth.redire
 
 The interesting piece is the inclusion of `$this->loginRedirect`. According to the documentation:
 
-> The AuthComponent remembers what controller/action pair you were trying to get to before you were asked to authenticate yourself by storing this value in the Session, under the `Auth.redirect` key. However, if this session value is not set (if you&rsquo;re coming to the login page from an external link, for example), then the user will be redirected to the URL specified in `loginRedirect`.
+> The AuthComponent remembers what controller/action pair you were trying to get to before you were asked to authenticate yourself by storing this value in the Session, under the `Auth.redirect` key. However, if this session value is not set (if you're coming to the login page from an external link, for example), then the user will be redirected to the URL specified in `loginRedirect`.
 
 Yet, according to the code above, `$loginAction` *sets* `Auth.redirect` *unless* it or `loginRedirect` is set. I added the following code to my Auth Component configuration:
 
@@ -35,9 +35,9 @@ Yet, according to the code above, `$loginAction` *sets* `Auth.redirect` *unless*
 
 After doing so, I expected that the Auth Component would no longer remember the requested URL if I was not logged in. But, contrary to the documentation, I was still redirected when attempting to access a secure area of the site before logging in.
 
-Honestly, my head exploded on this one. I&rsquo;m still a little fuzzy on `loginRedirect`. But here&rsquo;s my two cents. The original issue only occurred after logout. Since logout redirects to `loginAction`, the referrer was the previously requested page. Although `logout()` cleared `Auth.redirect`, the code above stored the referrer in `Auth.redirect`. Upon setting `loginRedirect`, the logic above failed. Since this code only runs when `$loginAction == $url`, it does not prevent Auth from remembering the requested URL when it *matters*.
+Honestly, my head exploded on this one. I'm still a little fuzzy on `loginRedirect`. But here's my two cents. The original issue only occurred after logout. Since logout redirects to `loginAction`, the referrer was the previously requested page. Although `logout()` cleared `Auth.redirect`, the code above stored the referrer in `Auth.redirect`. Upon setting `loginRedirect`, the logic above failed. Since this code only runs when `$loginAction == $url`, it does not prevent Auth from remembering the requested URL when it *matters*.
 
-I find many developers dislike the Auth Component. Whether it&rsquo;s too complex or not enough features, I don&rsquo;t know. What I do know is there is value in using native functionality. So, to be clear, this post is about the unclear documentation for the `loginRedirect` property and not bashing the Auth Component.
+I find many developers dislike the Auth Component. Whether it's too complex or not enough features, I don't know. What I do know is there is value in using native functionality. So, to be clear, this post is about the unclear documentation for the `loginRedirect` property and not bashing the Auth Component.
 
  [1]: http://cakephp.org/ "CakePHP"
  [2]: http://book.cakephp.org/view/1250/Authentication "CakePHP Auth Component"
