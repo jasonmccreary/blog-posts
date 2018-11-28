@@ -16,9 +16,7 @@ tags:
   - php
 description: This post outlines installing Apache, PHP, and MySQL on Mac OS X. In addition, I cover configuring Virtual Hosts and installing PHPMyAdmin.
 ---
-***OS X Yosemite Update:** Enough changed in Yosemite to make most of this post obsolete. I wrote a new post for [installing Apache, PHP, and MySQL on Mac OS X Yosemite](/2014/11/install-apache-php-mysql-mac-os-x-yosemite/).*
-
-***OS X Mavericks Update:** I added steps for existing installs which **upgraded** to Mac OS X Mavericks. For new installs of Apache, PHP, and MySQL on Mac OS X Mavericks, continue reading.*
+_**macOS Update:** While these instructions still work, there are new posts for recent versions of macOS, the latest being [Install Apache, PHP, and MySQL on macOS Mojave](/2018/11/install-apache-php-mysql-mac-os-x-mojave/)._
 
 I have installed Apache, PHP, and MySQL on Mac OS X since Leopard. Each time doing so by hand. Each version of Mac OS X having some minor difference. This post serves as much for my own record as to outline how to install Apache, MySQL, and PHP for a local development environment on Mac OS X <s>Mountain Lion</s> Mavericks.
 
@@ -39,7 +37,7 @@ First, open *Terminal* and switch to `root` to avoid permission issues while run
 Verify *It works!* by accessing <http://localhost>
 
 ## Enable PHP for Apache
-***OS X Mavericks Update**: You will need to rerun the steps in this section after upgrading an existing install to Mac OS X Mavericks.*
+_**OS X Mavericks Update**: You will need to rerun the steps in this section after upgrading an existing install to Mac OS X Mavericks._
 
 First, make a backup of the default Apache configuration. This is good practice and serves as a comparison against future versions of Mac OS X.
 
@@ -74,7 +72,7 @@ The **README** also suggests creating aliases for `mysql` and `mysqladmin`. Howe
 
 **Note**: You will need to open a new *Terminal* window or run the command above for your path to update.
 
-I also run `mysql_secure_installation`. While this isn&rsquo;t necessary, it&rsquo;s good practice.
+I also run `mysql_secure_installation`. While this isn't necessary, it's good practice.
 
 ### Connect PHP and MySQL
 You need to ensure PHP and MySQL can communicate with one another. There are [several options][3] to do so. I do the following:
@@ -88,7 +86,7 @@ You need to ensure PHP and MySQL can communicate with one another. There are [se
 
 You could stop here. PHP, MySQL, and Apache are all running. However, all of your sites would have URLs like <http://localhost/somesite/> pointing to **/Library/WebServer/Documents/somesite**. Not ideal for a local development environment.
 
-***OS X Mavericks Update**: You will need to rerun the steps below to uncomment the *vhost* `Include` after upgrading an existing install to Mac OS X Mavericks.*
+_**OS X Mavericks Update**: You will need to rerun the steps below to uncomment the *vhost* `Include` after upgrading an existing install to Mac OS X Mavericks._
 
 To run sites individually you need to enable *VirtualHosts*. To do so, we'll edit the Apache Configuration again.
 
@@ -98,11 +96,11 @@ Uncomment the following line:
 
     Include /private/etc/apache2/extra/httpd-vhosts.conf
 
-Now Apache will load **httpd-vhosts.conf**. Let&rsquo;s edit this file.
+Now Apache will load **httpd-vhosts.conf**. Let's edit this file.
 
     vi /etc/apache2/extra/httpd-vhosts.conf
 
-Here is an example of *VirtualHosts* I&rsquo;ve created.
+Here is an example of *VirtualHosts* I've created.
 
     <VirtualHost *:80>
         DocumentRoot "/Library/WebServer/Documents"
@@ -126,7 +124,7 @@ The first `VirtualHost` points to `/Library/WebServer/Documents`. The first `Vir
 
 The second `VirtualHost` points to my *dev* workspace and I can access it directly from *http://jason.local*. For ease of development, I also configured some custom logs.
 
-**Note**: I use the extension *local*. This avoids conflicts with any *real* extensions and serves as a reminder I&rsquo;m in my *local* environment.
+**Note**: I use the extension *local*. This avoids conflicts with any *real* extensions and serves as a reminder I'm in my *local* environment.
 
 Restart Apache:
 
@@ -160,7 +158,7 @@ In my case, all my files were under my local `~/Documents` directory. Which by d
 **Note**: There are many ways to solve permission issues. I have provided this as the *easiest* solution, not the *best*.
 
 ## Install PHPMyAdmin
-Unless you want to administer MySQL from the command line, I recommend installing [PHPMyAdmin][4]. I won&rsquo;t go into the details. Read the installation guide for more information. I install utility applications in the default directory. That way I can access them under, in this case, <http://localhost/phpmyadmin>.
+Unless you want to administer MySQL from the command line, I recommend installing [PHPMyAdmin][4]. I won't go into the details. Read the installation guide for more information. I install utility applications in the default directory. That way I can access them under, in this case, <http://localhost/phpmyadmin>.
 
     cd /Library/WebServer/Documents/
     tar -xvf ~/Downloads/phpMyAdmin-3.5.2.2-english.tar.gz

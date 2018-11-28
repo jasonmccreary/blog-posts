@@ -56,7 +56,7 @@ Finally, I cleaned up some of the backups that were created during the Mac OS X 
     sudo rm /etc/apache/extra/*~previous
     sudo rm -rf /etc/apache/original/
 
-**Note:** These files were not changed between versions. However, you if changed them, you should compare the files before running the commands.
+**Note:** These files were not changed between versions. However, if you changed them, you should compare the files before running the commands.
 
 Restart Apache:
 

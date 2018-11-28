@@ -16,13 +16,13 @@ tags:
 description: "This is an update for Mac OS X Yosemite of a previous post on installing Apache, PHP, and MySQL for Mac OS X."
 subheading: "This is an update for Mac OS X Yosemite of a previous post on installing Apache, PHP, and MySQL for Mac OS X."
 ---
-***OS X El Capitan Update:** While these instructions still work, I wrote a new post for [installing Apache, PHP, and MySQL on Mac OS X El Capitan](/2015/10/install-apache-php-mysql-mac-os-x-el-capitan/).*
+_**macOS Update:** While these instructions still work, there are new posts for recent versions of macOS, the latest being [Install Apache, PHP, and MySQL on macOS Mojave](/2018/11/install-apache-php-mysql-mac-os-x-mojave/)._
 
-***PHP Update:** Mac OS X Yosemite comes pre-installed with PHP version 5.5 which has reached its [end of life](http://php.net/supported-versions.php). After you complete this post, you should [upgrade PHP on Mac OS X](/2016/09/upgrade-php-mac-os-x/).*
+_**PHP Update:** Mac OS X Yosemite comes pre-installed with PHP version 5.5 which has reached its [end of life](http://php.net/supported-versions.php). After you complete this post, you should [upgrade PHP on Mac OS X](/2016/09/upgrade-php-mac-os-x/)._
 
-I recently upgraded to Mac OS X Yosemite. It seems OS X Yosemite makes my original post on [installing Apache, PHP, and MySQL on Mac OS X](/2012/10/install-apache-php-mysql-mac-os-x/) obsolete. Specifically, Yosemite includes Apache 2.4. This post is a complete update for installing Apache, PHP, and MySQL on Mac OS X Yosemite.
+I recently upgraded to Mac OS X Yosemite. It seems Mac OS X Yosemite makes my original post on [installing Apache, PHP, and MySQL on Mac OS X](/2012/10/install-apache-php-mysql-mac-os-x/) obsolete. Specifically, Yosemite includes Apache 2.4. This post is a complete update for installing Apache, PHP, and MySQL on Mac OS X Yosemite.
 
-A reminder that Mac OS X runs atop UNIX. So most UNIX software installs easily on Mac OS X. Furthermore, Apache and PHP come packaged with OS X. To create a local web server, all you need to do is enable them and *install* MySQL.
+A reminder that Mac OS X runs atop UNIX. So most UNIX software installs easily on Mac OS X. Furthermore, Apache and PHP come packaged with Mac OS X. To create a local web server, all you need to do is enable them and *install* MySQL.
 
 I am aware of the web server software available for Mac OS X, notably [MAMP][1]. These get you started quickly. But they forego the learning experience and, as most developers report, can become difficult to manage.
 
@@ -81,18 +81,18 @@ The **README** suggests creating aliases for `mysql` and `mysqladmin`. However t
 
 **Note**: You will need to open a new *Terminal* window or run the command above for your path to update.
 
-I also run `mysql_secure_installation`. While this isn&rsquo;t necessary, it&rsquo;s good practice.
+I also run `mysql_secure_installation`. While this isn't necessary, it's good practice.
 
 ## Connect PHP and MySQL
 You need to ensure PHP and MySQL can communicate with one another. There are [several options][3] to do so. I do the following:
 
-    cd /var 
+    cd /var
     mkdir mysql
     cd mysql
     ln -s /tmp/mysql.sock mysql.sock
 
 ## Additional Configuration (optional)
-The default configuration for Apache 2.4 on OS X Yosemite seemed pretty lean. For example, common modules like `mod_rewrite` were disabled. You may consider enabling this now to avoid forgetting they are disabled in the future.
+The default configuration for Apache 2.4 on Mac OS X seemed pretty lean. For example, common modules like `mod_rewrite` were disabled. You may consider enabling this now to avoid forgetting they are disabled in the future.
 
 I edited my Apache Configuration:
 
